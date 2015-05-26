@@ -1,9 +1,6 @@
 #pragma once
-#include "stdafx.h"
-#include "Form2.h"
 
-
-namespace WindowsFormApplication1 {
+namespace Projekt_OJP {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -13,12 +10,12 @@ namespace WindowsFormApplication1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for Form1
+	/// Summary for Form2
 	/// </summary>
-	public ref class Form1 : public System::Windows::Forms::Form
+	public ref class Form2 : public System::Windows::Forms::Form
 	{
 	public:
-		Form1(void)
+		Form2(void)
 		{
 			InitializeComponent();
 			//
@@ -30,7 +27,7 @@ namespace WindowsFormApplication1 {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~Form1()
+		~Form2()
 		{
 			if (components)
 			{
@@ -51,22 +48,12 @@ namespace WindowsFormApplication1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->SuspendLayout();
-			// 
-			// Form1
-			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->components = gcnew System::ComponentModel::Container();
+			this->Size = System::Drawing::Size(300,300);
+			this->Text = L"Form2";
+			this->Padding = System::Windows::Forms::Padding(0);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(361, 367);
-			this->Name = L"Form1";
-			this->Text = L"Form1";
-			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
-			this->ResumeLayout(false);
-
 		}
 #pragma endregion
-	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
-	}
 	};
 }
-
