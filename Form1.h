@@ -87,6 +87,32 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::ToolStripMenuItem^  mieczZTrzemaRunamiS³oñcaToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  wiedŸmiñskiSrebrnyMieczToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  ciê¿kaMaczugaToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  kamiennyM³otToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  korbaczToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  lekkaMaczugaToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiM³otBojowyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  m³otBojowyZakonuToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  m³otBojowyZmutowanegoRycerzaToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  morgenszternDwurêcznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  pochodniaToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyM³otBojowyZakonuToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  temerskiCepBojowyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  krasnoludzkiTopórZMahakamuToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiTopórDwurêcznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  ma³yTopórToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  runicznyTopórZGóryCarbonToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  siekieraToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  stalowyTopórDwurêcznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyTopórZakonuToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  temerskiTopórStalowyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  temerskiTopór¯elaznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiSztyletRunicznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZDeithwenToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZabójcówToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  temerskiSztyletStalowyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  temerskiSztylet¯elaznyToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripContainer^  toolStripContainer1;
 
 
 
@@ -167,19 +193,47 @@ namespace WindowsFormApplication1 {
 			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ciê¿kaMaczugaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->kamiennyM³otToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->korbaczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->lekkaMaczugaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->mahakamskiM³otBojowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->m³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->morgenszternDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->pochodniaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->œwiêtyM³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->temerskiCepBojowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->krasnoludzkiTopórZMahakamuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->mahakamskiTopórDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ma³yTopórToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->runicznyTopórZGóryCarbonToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->siekieraToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->stalowyTopórDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->œwiêtyTopórZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->temerskiTopórStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->temerskiTopór¯elaznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->mahakamskiSztyletRunicznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->sztyletZDeithwenToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->sztyletZabójcówToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->temerskiSztyletStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->temerskiSztylet¯elaznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->toolStripContainer1 = (gcnew System::Windows::Forms::ToolStripContainer());
 			this->menuStrip1->SuspendLayout();
+			this->toolStripContainer1->LeftToolStripPanel->SuspendLayout();
+			this->toolStripContainer1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// menuStrip1
 			// 
-			this->menuStrip1->Dock = System::Windows::Forms::DockStyle::Left;
+			this->menuStrip1->Dock = System::Windows::Forms::DockStyle::None;
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(5) {
 				this->mieczeStaloweToolStripMenuItem,
 					this->asdToolStripMenuItem, this->dadToolStripMenuItem, this->asdToolStripMenuItem1, this->asdToolStripMenuItem2
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(109, 367);
+			this->menuStrip1->Size = System::Drawing::Size(109, 258);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -198,7 +252,7 @@ namespace WindowsFormApplication1 {
 					this->zardzewia³yMieczToolStripMenuItem
 			});
 			this->mieczeStaloweToolStripMenuItem->Name = L"mieczeStaloweToolStripMenuItem";
-			this->mieczeStaloweToolStripMenuItem->Size = System::Drawing::Size(96, 19);
+			this->mieczeStaloweToolStripMenuItem->Size = System::Drawing::Size(102, 19);
 			this->mieczeStaloweToolStripMenuItem->Text = L"Miecze stalowe";
 			// 
 			// asdToolStripMenuItem
@@ -216,48 +270,64 @@ namespace WindowsFormApplication1 {
 			// 
 			// dadToolStripMenuItem
 			// 
-			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->asdToolStripMenuItem5 });
+			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(12) {
+				this->asdToolStripMenuItem5,
+					this->ciê¿kaMaczugaToolStripMenuItem, this->kamiennyM³otToolStripMenuItem, this->korbaczToolStripMenuItem, this->lekkaMaczugaToolStripMenuItem,
+					this->mahakamskiM³otBojowyToolStripMenuItem, this->m³otBojowyZakonuToolStripMenuItem, this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem,
+					this->morgenszternDwurêcznyToolStripMenuItem, this->pochodniaToolStripMenuItem, this->œwiêtyM³otBojowyZakonuToolStripMenuItem,
+					this->temerskiCepBojowyToolStripMenuItem
+			});
 			this->dadToolStripMenuItem->Name = L"dadToolStripMenuItem";
-			this->dadToolStripMenuItem->Size = System::Drawing::Size(96, 19);
+			this->dadToolStripMenuItem->Size = System::Drawing::Size(102, 19);
 			this->dadToolStripMenuItem->Text = L"Broñ obuchowa";
 			// 
 			// asdToolStripMenuItem1
 			// 
-			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->asdToolStripMenuItem4 });
+			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(10) {
+				this->asdToolStripMenuItem4,
+					this->krasnoludzkiTopórZMahakamuToolStripMenuItem, this->mahakamskiTopórDwurêcznyToolStripMenuItem, this->ma³yTopórToolStripMenuItem,
+					this->runicznyTopórZGóryCarbonToolStripMenuItem, this->siekieraToolStripMenuItem, this->stalowyTopórDwurêcznyToolStripMenuItem,
+					this->œwiêtyTopórZakonuToolStripMenuItem, this->temerskiTopórStalowyToolStripMenuItem, this->temerskiTopór¯elaznyToolStripMenuItem
+			});
 			this->asdToolStripMenuItem1->Name = L"asdToolStripMenuItem1";
-			this->asdToolStripMenuItem1->Size = System::Drawing::Size(96, 19);
+			this->asdToolStripMenuItem1->Size = System::Drawing::Size(102, 19);
 			this->asdToolStripMenuItem1->Text = L"Topory";
 			// 
 			// asdToolStripMenuItem2
 			// 
-			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->asdToolStripMenuItem3 });
+			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
+				this->asdToolStripMenuItem3,
+					this->mahakamskiSztyletRunicznyToolStripMenuItem, this->sztyletZDeithwenToolStripMenuItem, this->sztyletZabójcówToolStripMenuItem,
+					this->temerskiSztyletStalowyToolStripMenuItem, this->temerskiSztylet¯elaznyToolStripMenuItem
+			});
 			this->asdToolStripMenuItem2->Name = L"asdToolStripMenuItem2";
-			this->asdToolStripMenuItem2->Size = System::Drawing::Size(96, 19);
+			this->asdToolStripMenuItem2->Size = System::Drawing::Size(102, 19);
 			this->asdToolStripMenuItem2->Text = L"Sztylety";
 			// 
 			// asdToolStripMenuItem3
 			// 
 			this->asdToolStripMenuItem3->Name = L"asdToolStripMenuItem3";
-			this->asdToolStripMenuItem3->Size = System::Drawing::Size(152, 22);
-			this->asdToolStripMenuItem3->Text = L"asd";
+			this->asdToolStripMenuItem3->Size = System::Drawing::Size(225, 22);
+			this->asdToolStripMenuItem3->Text = L"Mahakamski sztylet";
 			// 
 			// asdToolStripMenuItem4
 			// 
 			this->asdToolStripMenuItem4->Name = L"asdToolStripMenuItem4";
-			this->asdToolStripMenuItem4->Size = System::Drawing::Size(152, 22);
-			this->asdToolStripMenuItem4->Text = L"asd";
+			this->asdToolStripMenuItem4->Size = System::Drawing::Size(251, 22);
+			this->asdToolStripMenuItem4->Text = L"Krasnoludzki topór z Góry Carbon";
 			// 
 			// asdToolStripMenuItem5
 			// 
 			this->asdToolStripMenuItem5->Name = L"asdToolStripMenuItem5";
-			this->asdToolStripMenuItem5->Size = System::Drawing::Size(152, 22);
-			this->asdToolStripMenuItem5->Text = L"asd";
+			this->asdToolStripMenuItem5->Size = System::Drawing::Size(260, 22);
+			this->asdToolStripMenuItem5->Text = L"Bu³awa ³añcuchowa";
 			// 
 			// ardaenyeToolStripMenuItem
 			// 
 			this->ardaenyeToolStripMenuItem->Name = L"ardaenyeToolStripMenuItem";
-			this->ardaenyeToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->ardaenyeToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->ardaenyeToolStripMenuItem->Text = L"Ard\'aenye";
+			this->ardaenyeToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::ardaenyeToolStripMenuItem_Click);
 			// 
 			// ceremonialnyMieczDeithwenToolStripMenuItem
 			// 
@@ -477,19 +547,194 @@ namespace WindowsFormApplication1 {
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Size = System::Drawing::Size(342, 22);
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Text = L"WiedŸmiñski srebrny miecz";
 			// 
+			// ciê¿kaMaczugaToolStripMenuItem
+			// 
+			this->ciê¿kaMaczugaToolStripMenuItem->Name = L"ciê¿kaMaczugaToolStripMenuItem";
+			this->ciê¿kaMaczugaToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->ciê¿kaMaczugaToolStripMenuItem->Text = L"Ciê¿ka maczuga";
+			// 
+			// kamiennyM³otToolStripMenuItem
+			// 
+			this->kamiennyM³otToolStripMenuItem->Name = L"kamiennyM³otToolStripMenuItem";
+			this->kamiennyM³otToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->kamiennyM³otToolStripMenuItem->Text = L"Kamienny m³ot";
+			// 
+			// korbaczToolStripMenuItem
+			// 
+			this->korbaczToolStripMenuItem->Name = L"korbaczToolStripMenuItem";
+			this->korbaczToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->korbaczToolStripMenuItem->Text = L"Korbacz";
+			// 
+			// lekkaMaczugaToolStripMenuItem
+			// 
+			this->lekkaMaczugaToolStripMenuItem->Name = L"lekkaMaczugaToolStripMenuItem";
+			this->lekkaMaczugaToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->lekkaMaczugaToolStripMenuItem->Text = L"Lekka maczuga";
+			// 
+			// mahakamskiM³otBojowyToolStripMenuItem
+			// 
+			this->mahakamskiM³otBojowyToolStripMenuItem->Name = L"mahakamskiM³otBojowyToolStripMenuItem";
+			this->mahakamskiM³otBojowyToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->mahakamskiM³otBojowyToolStripMenuItem->Text = L"Mahakamski m³ot bojowy";
+			// 
+			// m³otBojowyZakonuToolStripMenuItem
+			// 
+			this->m³otBojowyZakonuToolStripMenuItem->Name = L"m³otBojowyZakonuToolStripMenuItem";
+			this->m³otBojowyZakonuToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->m³otBojowyZakonuToolStripMenuItem->Text = L"M³ot bojowy Zakonu";
+			// 
+			// m³otBojowyZmutowanegoRycerzaToolStripMenuItem
+			// 
+			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Name = L"m³otBojowyZmutowanegoRycerzaToolStripMenuItem";
+			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Text = L"M³ot bojowy zmutowanego rycerza";
+			// 
+			// morgenszternDwurêcznyToolStripMenuItem
+			// 
+			this->morgenszternDwurêcznyToolStripMenuItem->Name = L"morgenszternDwurêcznyToolStripMenuItem";
+			this->morgenszternDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->morgenszternDwurêcznyToolStripMenuItem->Text = L"Morgensztern dwurêczny";
+			// 
+			// pochodniaToolStripMenuItem
+			// 
+			this->pochodniaToolStripMenuItem->Name = L"pochodniaToolStripMenuItem";
+			this->pochodniaToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->pochodniaToolStripMenuItem->Text = L"Pochodnia";
+			// 
+			// œwiêtyM³otBojowyZakonuToolStripMenuItem
+			// 
+			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Name = L"œwiêtyM³otBojowyZakonuToolStripMenuItem";
+			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Text = L"Œwiêty m³ot bojowy Zakonu";
+			// 
+			// temerskiCepBojowyToolStripMenuItem
+			// 
+			this->temerskiCepBojowyToolStripMenuItem->Name = L"temerskiCepBojowyToolStripMenuItem";
+			this->temerskiCepBojowyToolStripMenuItem->Size = System::Drawing::Size(260, 22);
+			this->temerskiCepBojowyToolStripMenuItem->Text = L"Temerski cep bojowy";
+			// 
+			// krasnoludzkiTopórZMahakamuToolStripMenuItem
+			// 
+			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Name = L"krasnoludzkiTopórZMahakamuToolStripMenuItem";
+			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Text = L"Krasnoludzki topór z Mahakamu";
+			// 
+			// mahakamskiTopórDwurêcznyToolStripMenuItem
+			// 
+			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Name = L"mahakamskiTopórDwurêcznyToolStripMenuItem";
+			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Text = L"Mahakamski topór dwurêczny";
+			// 
+			// ma³yTopórToolStripMenuItem
+			// 
+			this->ma³yTopórToolStripMenuItem->Name = L"ma³yTopórToolStripMenuItem";
+			this->ma³yTopórToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->ma³yTopórToolStripMenuItem->Text = L"Ma³y topór";
+			// 
+			// runicznyTopórZGóryCarbonToolStripMenuItem
+			// 
+			this->runicznyTopórZGóryCarbonToolStripMenuItem->Name = L"runicznyTopórZGóryCarbonToolStripMenuItem";
+			this->runicznyTopórZGóryCarbonToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->runicznyTopórZGóryCarbonToolStripMenuItem->Text = L"Runiczny topór z Góry Carbon";
+			// 
+			// siekieraToolStripMenuItem
+			// 
+			this->siekieraToolStripMenuItem->Name = L"siekieraToolStripMenuItem";
+			this->siekieraToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->siekieraToolStripMenuItem->Text = L"Siekiera";
+			// 
+			// stalowyTopórDwurêcznyToolStripMenuItem
+			// 
+			this->stalowyTopórDwurêcznyToolStripMenuItem->Name = L"stalowyTopórDwurêcznyToolStripMenuItem";
+			this->stalowyTopórDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->stalowyTopórDwurêcznyToolStripMenuItem->Text = L"Stalowy topór dwurêczny";
+			// 
+			// œwiêtyTopórZakonuToolStripMenuItem
+			// 
+			this->œwiêtyTopórZakonuToolStripMenuItem->Name = L"œwiêtyTopórZakonuToolStripMenuItem";
+			this->œwiêtyTopórZakonuToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->œwiêtyTopórZakonuToolStripMenuItem->Text = L"Œwiêty topór Zakonu";
+			// 
+			// temerskiTopórStalowyToolStripMenuItem
+			// 
+			this->temerskiTopórStalowyToolStripMenuItem->Name = L"temerskiTopórStalowyToolStripMenuItem";
+			this->temerskiTopórStalowyToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->temerskiTopórStalowyToolStripMenuItem->Text = L"Temerski topór stalowy";
+			// 
+			// temerskiTopór¯elaznyToolStripMenuItem
+			// 
+			this->temerskiTopór¯elaznyToolStripMenuItem->Name = L"temerskiTopór¯elaznyToolStripMenuItem";
+			this->temerskiTopór¯elaznyToolStripMenuItem->Size = System::Drawing::Size(251, 22);
+			this->temerskiTopór¯elaznyToolStripMenuItem->Text = L"Temerski topór ¿elazny";
+			// 
+			// mahakamskiSztyletRunicznyToolStripMenuItem
+			// 
+			this->mahakamskiSztyletRunicznyToolStripMenuItem->Name = L"mahakamskiSztyletRunicznyToolStripMenuItem";
+			this->mahakamskiSztyletRunicznyToolStripMenuItem->Size = System::Drawing::Size(225, 22);
+			this->mahakamskiSztyletRunicznyToolStripMenuItem->Text = L"Mahakamski sztylet runiczny";
+			// 
+			// sztyletZDeithwenToolStripMenuItem
+			// 
+			this->sztyletZDeithwenToolStripMenuItem->Name = L"sztyletZDeithwenToolStripMenuItem";
+			this->sztyletZDeithwenToolStripMenuItem->Size = System::Drawing::Size(225, 22);
+			this->sztyletZDeithwenToolStripMenuItem->Text = L"Sztylet z Deithwen";
+			// 
+			// sztyletZabójcówToolStripMenuItem
+			// 
+			this->sztyletZabójcówToolStripMenuItem->Name = L"sztyletZabójcówToolStripMenuItem";
+			this->sztyletZabójcówToolStripMenuItem->Size = System::Drawing::Size(225, 22);
+			this->sztyletZabójcówToolStripMenuItem->Text = L"Sztylet zabójców";
+			// 
+			// temerskiSztyletStalowyToolStripMenuItem
+			// 
+			this->temerskiSztyletStalowyToolStripMenuItem->Name = L"temerskiSztyletStalowyToolStripMenuItem";
+			this->temerskiSztyletStalowyToolStripMenuItem->Size = System::Drawing::Size(225, 22);
+			this->temerskiSztyletStalowyToolStripMenuItem->Text = L"Temerski sztylet stalowy";
+			// 
+			// temerskiSztylet¯elaznyToolStripMenuItem
+			// 
+			this->temerskiSztylet¯elaznyToolStripMenuItem->Name = L"temerskiSztylet¯elaznyToolStripMenuItem";
+			this->temerskiSztylet¯elaznyToolStripMenuItem->Size = System::Drawing::Size(225, 22);
+			this->temerskiSztylet¯elaznyToolStripMenuItem->Text = L"Temerski sztylet ¿elazny";
+			// 
+			// toolStripContainer1
+			// 
+			// 
+			// toolStripContainer1.ContentPanel
+			// 
+			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(265, 258);
+			this->toolStripContainer1->Dock = System::Windows::Forms::DockStyle::Fill;
+			// 
+			// toolStripContainer1.LeftToolStripPanel
+			// 
+			this->toolStripContainer1->LeftToolStripPanel->Controls->Add(this->menuStrip1);
+			this->toolStripContainer1->Location = System::Drawing::Point(0, 0);
+			this->toolStripContainer1->Name = L"toolStripContainer1";
+			this->toolStripContainer1->Size = System::Drawing::Size(374, 258);
+			this->toolStripContainer1->TabIndex = 1;
+			this->toolStripContainer1->Text = L"toolStripContainer1";
+			// 
+			// toolStripContainer1.TopToolStripPanel
+			// 
+			this->toolStripContainer1->TopToolStripPanel->Click += gcnew System::EventHandler(this, &Form1::toolStripContainer1_TopToolStripPanel_Click);
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(515, 367);
-			this->Controls->Add(this->menuStrip1);
+			this->BackColor = System::Drawing::Color::AliceBlue;
+			this->ClientSize = System::Drawing::Size(374, 258);
+			this->Controls->Add(this->toolStripContainer1);
 			this->Name = L"Form1";
 			this->Text = L"Form1";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
+			this->toolStripContainer1->LeftToolStripPanel->ResumeLayout(false);
+			this->toolStripContainer1->LeftToolStripPanel->PerformLayout();
+			this->toolStripContainer1->ResumeLayout(false);
+			this->toolStripContainer1->PerformLayout();
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion
@@ -503,6 +748,10 @@ namespace WindowsFormApplication1 {
 	}
 	private: System::Void mieczZMeteorytowejStaliToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
+private: System::Void toolStripContainer1_TopToolStripPanel_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void ardaenyeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }
 
