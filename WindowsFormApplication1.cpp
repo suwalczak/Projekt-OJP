@@ -2,8 +2,10 @@
 
 #include "stdafx.h"
 #include "Form1.h"
+#include "Form2.h"
 
 using namespace WindowsFormApplication1;
+using namespace Projekt_OJP;
 
 [STAThreadAttribute]
 int main(array<System::String ^> ^args)

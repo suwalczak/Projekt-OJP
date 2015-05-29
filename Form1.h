@@ -12,6 +12,7 @@ namespace WindowsFormApplication1 {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
 	/// <summary>
 	/// Summary for Form1
 	/// </summary>
@@ -120,6 +121,8 @@ namespace WindowsFormApplication1 {
 
 
 
+
+
 	protected:
 
 	protected:
@@ -149,13 +152,6 @@ namespace WindowsFormApplication1 {
 		{
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->mieczeStaloweToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->dadToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem3 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem4 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->asdToolStripMenuItem5 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ardaenyeToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ceremonialnyMieczDeithwenToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->dyaeblToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -180,6 +176,7 @@ namespace WindowsFormApplication1 {
 			this->temerskiMieczStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->wiedŸmiñskiMieczStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->zardzewia³yMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->aerondightToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ksiê¿ycoweOstrzeToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->runicznyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -193,6 +190,8 @@ namespace WindowsFormApplication1 {
 			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->dadToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem5 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ciê¿kaMaczugaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->kamiennyM³otToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->korbaczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -204,6 +203,8 @@ namespace WindowsFormApplication1 {
 			this->pochodniaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->temerskiCepBojowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem4 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->krasnoludzkiTopórZMahakamuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mahakamskiTopórDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ma³yTopórToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -213,6 +214,8 @@ namespace WindowsFormApplication1 {
 			this->œwiêtyTopórZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->temerskiTopórStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->temerskiTopór¯elaznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->asdToolStripMenuItem3 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mahakamskiSztyletRunicznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->sztyletZDeithwenToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->sztyletZabójcówToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -226,6 +229,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// menuStrip1
 			// 
+			this->menuStrip1->BackColor = System::Drawing::Color::Black;
 			this->menuStrip1->Dock = System::Windows::Forms::DockStyle::None;
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(5) {
 				this->mieczeStaloweToolStripMenuItem,
@@ -233,7 +237,7 @@ namespace WindowsFormApplication1 {
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(109, 258);
+			this->menuStrip1->Size = System::Drawing::Size(109, 233);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -251,76 +255,11 @@ namespace WindowsFormApplication1 {
 					this->œwiêtyMieczZakonuToolStripMenuItem, this->temerskiMieczStalowyToolStripMenuItem, this->wiedŸmiñskiMieczStalowyToolStripMenuItem,
 					this->zardzewia³yMieczToolStripMenuItem
 			});
+			this->mieczeStaloweToolStripMenuItem->ForeColor = System::Drawing::SystemColors::Highlight;
 			this->mieczeStaloweToolStripMenuItem->Name = L"mieczeStaloweToolStripMenuItem";
 			this->mieczeStaloweToolStripMenuItem->Size = System::Drawing::Size(102, 19);
 			this->mieczeStaloweToolStripMenuItem->Text = L"Miecze stalowe";
-			// 
-			// asdToolStripMenuItem
-			// 
-			this->asdToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(13) {
-				this->aerondightToolStripMenuItem,
-					this->ksiê¿ycoweOstrzeToolStripMenuItem, this->runicznyMieczToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem,
-					this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem, this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem,
-					this->mieczZTrzemaRunamiZiemiToolStripMenuItem, this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem, this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem,
-					this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem, this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem, this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem
-			});
-			this->asdToolStripMenuItem->Name = L"asdToolStripMenuItem";
-			this->asdToolStripMenuItem->Size = System::Drawing::Size(96, 19);
-			this->asdToolStripMenuItem->Text = L"Miecze srebrne";
-			// 
-			// dadToolStripMenuItem
-			// 
-			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(12) {
-				this->asdToolStripMenuItem5,
-					this->ciê¿kaMaczugaToolStripMenuItem, this->kamiennyM³otToolStripMenuItem, this->korbaczToolStripMenuItem, this->lekkaMaczugaToolStripMenuItem,
-					this->mahakamskiM³otBojowyToolStripMenuItem, this->m³otBojowyZakonuToolStripMenuItem, this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem,
-					this->morgenszternDwurêcznyToolStripMenuItem, this->pochodniaToolStripMenuItem, this->œwiêtyM³otBojowyZakonuToolStripMenuItem,
-					this->temerskiCepBojowyToolStripMenuItem
-			});
-			this->dadToolStripMenuItem->Name = L"dadToolStripMenuItem";
-			this->dadToolStripMenuItem->Size = System::Drawing::Size(102, 19);
-			this->dadToolStripMenuItem->Text = L"Broñ obuchowa";
-			// 
-			// asdToolStripMenuItem1
-			// 
-			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(10) {
-				this->asdToolStripMenuItem4,
-					this->krasnoludzkiTopórZMahakamuToolStripMenuItem, this->mahakamskiTopórDwurêcznyToolStripMenuItem, this->ma³yTopórToolStripMenuItem,
-					this->runicznyTopórZGóryCarbonToolStripMenuItem, this->siekieraToolStripMenuItem, this->stalowyTopórDwurêcznyToolStripMenuItem,
-					this->œwiêtyTopórZakonuToolStripMenuItem, this->temerskiTopórStalowyToolStripMenuItem, this->temerskiTopór¯elaznyToolStripMenuItem
-			});
-			this->asdToolStripMenuItem1->Name = L"asdToolStripMenuItem1";
-			this->asdToolStripMenuItem1->Size = System::Drawing::Size(102, 19);
-			this->asdToolStripMenuItem1->Text = L"Topory";
-			// 
-			// asdToolStripMenuItem2
-			// 
-			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
-				this->asdToolStripMenuItem3,
-					this->mahakamskiSztyletRunicznyToolStripMenuItem, this->sztyletZDeithwenToolStripMenuItem, this->sztyletZabójcówToolStripMenuItem,
-					this->temerskiSztyletStalowyToolStripMenuItem, this->temerskiSztylet¯elaznyToolStripMenuItem
-			});
-			this->asdToolStripMenuItem2->Name = L"asdToolStripMenuItem2";
-			this->asdToolStripMenuItem2->Size = System::Drawing::Size(102, 19);
-			this->asdToolStripMenuItem2->Text = L"Sztylety";
-			// 
-			// asdToolStripMenuItem3
-			// 
-			this->asdToolStripMenuItem3->Name = L"asdToolStripMenuItem3";
-			this->asdToolStripMenuItem3->Size = System::Drawing::Size(225, 22);
-			this->asdToolStripMenuItem3->Text = L"Mahakamski sztylet";
-			// 
-			// asdToolStripMenuItem4
-			// 
-			this->asdToolStripMenuItem4->Name = L"asdToolStripMenuItem4";
-			this->asdToolStripMenuItem4->Size = System::Drawing::Size(251, 22);
-			this->asdToolStripMenuItem4->Text = L"Krasnoludzki topór z Góry Carbon";
-			// 
-			// asdToolStripMenuItem5
-			// 
-			this->asdToolStripMenuItem5->Name = L"asdToolStripMenuItem5";
-			this->asdToolStripMenuItem5->Size = System::Drawing::Size(260, 22);
-			this->asdToolStripMenuItem5->Text = L"Bu³awa ³añcuchowa";
+			this->mieczeStaloweToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mieczeStaloweToolStripMenuItem_Click_1);
 			// 
 			// ardaenyeToolStripMenuItem
 			// 
@@ -332,37 +271,38 @@ namespace WindowsFormApplication1 {
 			// ceremonialnyMieczDeithwenToolStripMenuItem
 			// 
 			this->ceremonialnyMieczDeithwenToolStripMenuItem->Name = L"ceremonialnyMieczDeithwenToolStripMenuItem";
-			this->ceremonialnyMieczDeithwenToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->ceremonialnyMieczDeithwenToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->ceremonialnyMieczDeithwenToolStripMenuItem->Text = L"Ceremonialny miecz Deithwen";
+			this->ceremonialnyMieczDeithwenToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::ceremonialnyMieczDeithwenToolStripMenuItem_Click);
 			// 
 			// dyaeblToolStripMenuItem
 			// 
 			this->dyaeblToolStripMenuItem->Name = L"dyaeblToolStripMenuItem";
-			this->dyaeblToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->dyaeblToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->dyaeblToolStripMenuItem->Text = L"D\'yaebl";
 			// 
 			// elfiMieczZNiebieskichGórToolStripMenuItem
 			// 
 			this->elfiMieczZNiebieskichGórToolStripMenuItem->Name = L"elfiMieczZNiebieskichGórToolStripMenuItem";
-			this->elfiMieczZNiebieskichGórToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->elfiMieczZNiebieskichGórToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->elfiMieczZNiebieskichGórToolStripMenuItem->Text = L"Elfi miecz z Niebieskich Gór";
 			// 
 			// gvalchirMahakamskiRunicznySihillToolStripMenuItem
 			// 
 			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Name = L"gvalchirMahakamskiRunicznySihillToolStripMenuItem";
-			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Text = L"G\'valchir: mahakamski runiczny Sihill";
 			// 
 			// gwalhirToolStripMenuItem
 			// 
 			this->gwalhirToolStripMenuItem->Name = L"gwalhirToolStripMenuItem";
-			this->gwalhirToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->gwalhirToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->gwalhirToolStripMenuItem->Text = L"Gwalhir";
 			// 
 			// harvallToolStripMenuItem
 			// 
 			this->harvallToolStripMenuItem->Name = L"harvallToolStripMenuItem";
-			this->harvallToolStripMenuItem->Size = System::Drawing::Size(269, 22);
+			this->harvallToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->harvallToolStripMenuItem->Text = L"Harvall";
 			// 
 			// mieczZMeteorytowejStaliToolStripMenuItem
@@ -469,6 +409,20 @@ namespace WindowsFormApplication1 {
 			this->zardzewia³yMieczToolStripMenuItem->Size = System::Drawing::Size(494, 22);
 			this->zardzewia³yMieczToolStripMenuItem->Text = L"Zardzewia³y miecz";
 			// 
+			// asdToolStripMenuItem
+			// 
+			this->asdToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(13) {
+				this->aerondightToolStripMenuItem,
+					this->ksiê¿ycoweOstrzeToolStripMenuItem, this->runicznyMieczToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem,
+					this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem, this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem,
+					this->mieczZTrzemaRunamiZiemiToolStripMenuItem, this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem, this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem,
+					this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem, this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem, this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem
+			});
+			this->asdToolStripMenuItem->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->asdToolStripMenuItem->Name = L"asdToolStripMenuItem";
+			this->asdToolStripMenuItem->Size = System::Drawing::Size(102, 19);
+			this->asdToolStripMenuItem->Text = L"Miecze srebrne";
+			// 
 			// aerondightToolStripMenuItem
 			// 
 			this->aerondightToolStripMenuItem->Name = L"aerondightToolStripMenuItem";
@@ -547,6 +501,26 @@ namespace WindowsFormApplication1 {
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Size = System::Drawing::Size(342, 22);
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Text = L"WiedŸmiñski srebrny miecz";
 			// 
+			// dadToolStripMenuItem
+			// 
+			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(12) {
+				this->asdToolStripMenuItem5,
+					this->ciê¿kaMaczugaToolStripMenuItem, this->kamiennyM³otToolStripMenuItem, this->korbaczToolStripMenuItem, this->lekkaMaczugaToolStripMenuItem,
+					this->mahakamskiM³otBojowyToolStripMenuItem, this->m³otBojowyZakonuToolStripMenuItem, this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem,
+					this->morgenszternDwurêcznyToolStripMenuItem, this->pochodniaToolStripMenuItem, this->œwiêtyM³otBojowyZakonuToolStripMenuItem,
+					this->temerskiCepBojowyToolStripMenuItem
+			});
+			this->dadToolStripMenuItem->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->dadToolStripMenuItem->Name = L"dadToolStripMenuItem";
+			this->dadToolStripMenuItem->Size = System::Drawing::Size(102, 19);
+			this->dadToolStripMenuItem->Text = L"Broñ obuchowa";
+			// 
+			// asdToolStripMenuItem5
+			// 
+			this->asdToolStripMenuItem5->Name = L"asdToolStripMenuItem5";
+			this->asdToolStripMenuItem5->Size = System::Drawing::Size(260, 22);
+			this->asdToolStripMenuItem5->Text = L"Bu³awa ³añcuchowa";
+			// 
 			// ciê¿kaMaczugaToolStripMenuItem
 			// 
 			this->ciê¿kaMaczugaToolStripMenuItem->Name = L"ciê¿kaMaczugaToolStripMenuItem";
@@ -613,6 +587,25 @@ namespace WindowsFormApplication1 {
 			this->temerskiCepBojowyToolStripMenuItem->Size = System::Drawing::Size(260, 22);
 			this->temerskiCepBojowyToolStripMenuItem->Text = L"Temerski cep bojowy";
 			// 
+			// asdToolStripMenuItem1
+			// 
+			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(10) {
+				this->asdToolStripMenuItem4,
+					this->krasnoludzkiTopórZMahakamuToolStripMenuItem, this->mahakamskiTopórDwurêcznyToolStripMenuItem, this->ma³yTopórToolStripMenuItem,
+					this->runicznyTopórZGóryCarbonToolStripMenuItem, this->siekieraToolStripMenuItem, this->stalowyTopórDwurêcznyToolStripMenuItem,
+					this->œwiêtyTopórZakonuToolStripMenuItem, this->temerskiTopórStalowyToolStripMenuItem, this->temerskiTopór¯elaznyToolStripMenuItem
+			});
+			this->asdToolStripMenuItem1->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->asdToolStripMenuItem1->Name = L"asdToolStripMenuItem1";
+			this->asdToolStripMenuItem1->Size = System::Drawing::Size(102, 19);
+			this->asdToolStripMenuItem1->Text = L"Topory";
+			// 
+			// asdToolStripMenuItem4
+			// 
+			this->asdToolStripMenuItem4->Name = L"asdToolStripMenuItem4";
+			this->asdToolStripMenuItem4->Size = System::Drawing::Size(251, 22);
+			this->asdToolStripMenuItem4->Text = L"Krasnoludzki topór z Góry Carbon";
+			// 
 			// krasnoludzkiTopórZMahakamuToolStripMenuItem
 			// 
 			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Name = L"krasnoludzkiTopórZMahakamuToolStripMenuItem";
@@ -667,6 +660,24 @@ namespace WindowsFormApplication1 {
 			this->temerskiTopór¯elaznyToolStripMenuItem->Size = System::Drawing::Size(251, 22);
 			this->temerskiTopór¯elaznyToolStripMenuItem->Text = L"Temerski topór ¿elazny";
 			// 
+			// asdToolStripMenuItem2
+			// 
+			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
+				this->asdToolStripMenuItem3,
+					this->mahakamskiSztyletRunicznyToolStripMenuItem, this->sztyletZDeithwenToolStripMenuItem, this->sztyletZabójcówToolStripMenuItem,
+					this->temerskiSztyletStalowyToolStripMenuItem, this->temerskiSztylet¯elaznyToolStripMenuItem
+			});
+			this->asdToolStripMenuItem2->ForeColor = System::Drawing::SystemColors::HotTrack;
+			this->asdToolStripMenuItem2->Name = L"asdToolStripMenuItem2";
+			this->asdToolStripMenuItem2->Size = System::Drawing::Size(102, 19);
+			this->asdToolStripMenuItem2->Text = L"Sztylety";
+			// 
+			// asdToolStripMenuItem3
+			// 
+			this->asdToolStripMenuItem3->Name = L"asdToolStripMenuItem3";
+			this->asdToolStripMenuItem3->Size = System::Drawing::Size(225, 22);
+			this->asdToolStripMenuItem3->Text = L"Mahakamski sztylet";
+			// 
 			// mahakamskiSztyletRunicznyToolStripMenuItem
 			// 
 			this->mahakamskiSztyletRunicznyToolStripMenuItem->Name = L"mahakamskiSztyletRunicznyToolStripMenuItem";
@@ -702,7 +713,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// toolStripContainer1.ContentPanel
 			// 
-			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(265, 258);
+			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(265, 233);
 			this->toolStripContainer1->Dock = System::Windows::Forms::DockStyle::Fill;
 			// 
 			// toolStripContainer1.LeftToolStripPanel
@@ -751,6 +762,37 @@ namespace WindowsFormApplication1 {
 private: System::Void toolStripContainer1_TopToolStripPanel_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void ardaenyeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+			 this->Hide();
+			 Form^ okno = gcnew Form();
+			 Button ^ zamknij = gcnew Button;
+
+			 okno->Show();
+			 okno->Width = 1000;
+			 okno->Height = 700;
+			 Label ^ Pole_tekst = gcnew Label;
+			 Label^ Pole_tekst1 = gcnew Label;
+			 zamknij->Text = "Zamknij";
+			 Pole_tekst->Text = "Cechy:";
+			 Pole_tekst->Location = Point(100, 100);
+			 zamknij->Location = Point(150, 150);
+
+
+			 okno->Controls->Add(Pole_tekst);
+			 okno->Controls->Add(Pole_tekst1);
+			 okno->Controls->Add(zamknij);
+			 
+
+}
+private: System::Void mieczeStaloweToolStripMenuItem_Click_1(System::Object^  sender, System::EventArgs^  e) {
+			 
+}
+private: System::Void textBox1_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+			 
+}
+private: System::Void ceremonialnyMieczDeithwenToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+			 Form2::Form2^ form2 = gcnew Form2::Form2();
+			 form2->Show();
+
 }
 };
 }

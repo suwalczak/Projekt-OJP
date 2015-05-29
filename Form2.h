@@ -1,4 +1,7 @@
 #pragma once
+#include "stdafx.h"
+#include"Form1.h"
+
 
 namespace Projekt_OJP {
 
