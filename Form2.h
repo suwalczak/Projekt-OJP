@@ -59,7 +59,7 @@ namespace Projekt_OJP {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(421, 375);
 			this->Name = L"Form2";
-			this->Text = L"Form2";
+			this->Text = L"Weapons of Witcher";
 			this->ResumeLayout(false);
 
 		}
