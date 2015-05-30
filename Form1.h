@@ -151,7 +151,6 @@ namespace WindowsFormApplication1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->mieczeStaloweToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ardaenyeToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -244,7 +243,7 @@ namespace WindowsFormApplication1 {
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(213, 237);
+			this->menuStrip1->Size = System::Drawing::Size(213, 212);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -271,15 +270,19 @@ namespace WindowsFormApplication1 {
 			// 
 			// ardaenyeToolStripMenuItem
 			// 
+			this->ardaenyeToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->ardaenyeToolStripMenuItem->Name = L"ardaenyeToolStripMenuItem";
-			this->ardaenyeToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->ardaenyeToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->ardaenyeToolStripMenuItem->Text = L"Ard\'aenye";
 			this->ardaenyeToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::ardaenyeToolStripMenuItem_Click);
 			// 
 			// ceremonialnyMieczDeithwenToolStripMenuItem
 			// 
+			this->ceremonialnyMieczDeithwenToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->ceremonialnyMieczDeithwenToolStripMenuItem->Name = L"ceremonialnyMieczDeithwenToolStripMenuItem";
-			this->ceremonialnyMieczDeithwenToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->ceremonialnyMieczDeithwenToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->ceremonialnyMieczDeithwenToolStripMenuItem->Text = L"Ceremonialny miecz Deithwen";
 			this->ceremonialnyMieczDeithwenToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::ceremonialnyMieczDeithwenToolStripMenuItem_Click);
 			// 
@@ -288,7 +291,7 @@ namespace WindowsFormApplication1 {
 			this->dyaeblToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->dyaeblToolStripMenuItem->Name = L"dyaeblToolStripMenuItem";
-			this->dyaeblToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->dyaeblToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->dyaeblToolStripMenuItem->Text = L"D\'yaebl";
 			// 
 			// elfiMieczZNiebieskichGórToolStripMenuItem
@@ -296,7 +299,7 @@ namespace WindowsFormApplication1 {
 			this->elfiMieczZNiebieskichGórToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->elfiMieczZNiebieskichGórToolStripMenuItem->Name = L"elfiMieczZNiebieskichGórToolStripMenuItem";
-			this->elfiMieczZNiebieskichGórToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->elfiMieczZNiebieskichGórToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->elfiMieczZNiebieskichGórToolStripMenuItem->Text = L"Elfi miecz z Niebieskich Gór";
 			// 
 			// gvalchirMahakamskiRunicznySihillToolStripMenuItem
@@ -304,7 +307,7 @@ namespace WindowsFormApplication1 {
 			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Name = L"gvalchirMahakamskiRunicznySihillToolStripMenuItem";
-			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->gvalchirMahakamskiRunicznySihillToolStripMenuItem->Text = L"G\'valchir: mahakamski runiczny Sihill";
 			// 
 			// gwalhirToolStripMenuItem
@@ -312,7 +315,7 @@ namespace WindowsFormApplication1 {
 			this->gwalhirToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->gwalhirToolStripMenuItem->Name = L"gwalhirToolStripMenuItem";
-			this->gwalhirToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->gwalhirToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->gwalhirToolStripMenuItem->Text = L"Gwalhir";
 			// 
 			// harvallToolStripMenuItem
@@ -320,7 +323,7 @@ namespace WindowsFormApplication1 {
 			this->harvallToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->harvallToolStripMenuItem->Name = L"harvallToolStripMenuItem";
-			this->harvallToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->harvallToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->harvallToolStripMenuItem->Text = L"Harvall";
 			// 
 			// mieczZMeteorytowejStaliToolStripMenuItem
@@ -328,7 +331,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZMeteorytowejStaliToolStripMenuItem->Name = L"mieczZMeteorytowejStaliToolStripMenuItem";
-			this->mieczZMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z czerwonej, niebieskiej oraz ¿ó³tej meteorytowej stali";
 			this->mieczZMeteorytowejStaliToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mieczZMeteorytowejStaliToolStripMenuItem_Click);
 			// 
@@ -337,7 +340,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZMeteorytowejStaliToolStripMenuItem1->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZMeteorytowejStaliToolStripMenuItem1->Name = L"mieczZMeteorytowejStaliToolStripMenuItem1";
-			this->mieczZMeteorytowejStaliToolStripMenuItem1->Size = System::Drawing::Size(696, 44);
+			this->mieczZMeteorytowejStaliToolStripMenuItem1->Size = System::Drawing::Size(696, 32);
 			this->mieczZMeteorytowejStaliToolStripMenuItem1->Text = L"Miecz z jednego niebieskiego i dwóch ¿ó³tych kawa³ków meteorytowej stali";
 			// 
 			// mieczZMeteorytowejStaliToolStripMenuItem2
@@ -345,7 +348,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZMeteorytowejStaliToolStripMenuItem2->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZMeteorytowejStaliToolStripMenuItem2->Name = L"mieczZMeteorytowejStaliToolStripMenuItem2";
-			this->mieczZMeteorytowejStaliToolStripMenuItem2->Size = System::Drawing::Size(696, 44);
+			this->mieczZMeteorytowejStaliToolStripMenuItem2->Size = System::Drawing::Size(696, 32);
 			this->mieczZMeteorytowejStaliToolStripMenuItem2->Text = L"Miecz z jednego niebieskiego i dwóch czerwonych kawa³ków meteorytowej stali";
 			// 
 			// mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -353,7 +356,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display",
 				14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZJednegoCzerwonegoIDwóch¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z jednego czerwonego i dwóch ¿ó³tych kawa³ków meteorytowej stali";
 			// 
 			// mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -361,7 +364,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F,
 				System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZTrzech¯ó³tychKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z trzech ¿ó³tych kawa³ków meteorytowej stali";
 			// 
 			// mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -369,7 +372,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display",
 				14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZJednego¯ó³tegoIDwóchCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z jednego ¿ó³tego i dwóch czerwonych kawa³ków meteorytowej stali";
 			// 
 			// mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -377,7 +380,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F,
 				System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZTrzechCzerwonychKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z trzech czerwonych kawa³ków meteorytowej stali";
 			// 
 			// mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -386,7 +389,7 @@ namespace WindowsFormApplication1 {
 				14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuIte"
 				L"m";
-			this->mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZJednegoCzerwonegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z jednego czerwonego i dwóch niebieskich kawa³ków meteorytowej stali";
 			// 
 			// mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -394,7 +397,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display",
 				14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZJednego¯ó³tegoIDwóchNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z jednego ¿ó³tego i dwóch niebieskich kawa³ków meteorytowej stali";
 			// 
 			// mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem
@@ -402,7 +405,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F,
 				System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Name = L"mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem";
-			this->mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZTrzechNiebieskichKawa³kówMeteorytowejStaliToolStripMenuItem->Text = L"Miecz z trzech niebieskich kawa³ków meteorytowej stali";
 			// 
 			// mieczZakonuToolStripMenuItem
@@ -410,7 +413,7 @@ namespace WindowsFormApplication1 {
 			this->mieczZakonuToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZakonuToolStripMenuItem->Name = L"mieczZakonuToolStripMenuItem";
-			this->mieczZakonuToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->mieczZakonuToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->mieczZakonuToolStripMenuItem->Text = L"Miecz Zakonu";
 			// 
 			// nielegalnyMieczToolStripMenuItem
@@ -418,7 +421,7 @@ namespace WindowsFormApplication1 {
 			this->nielegalnyMieczToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->nielegalnyMieczToolStripMenuItem->Name = L"nielegalnyMieczToolStripMenuItem";
-			this->nielegalnyMieczToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->nielegalnyMieczToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->nielegalnyMieczToolStripMenuItem->Text = L"Nielegalny miecz";
 			// 
 			// runicznyMieczZDolBlathannaToolStripMenuItem
@@ -426,31 +429,39 @@ namespace WindowsFormApplication1 {
 			this->runicznyMieczZDolBlathannaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->runicznyMieczZDolBlathannaToolStripMenuItem->Name = L"runicznyMieczZDolBlathannaToolStripMenuItem";
-			this->runicznyMieczZDolBlathannaToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->runicznyMieczZDolBlathannaToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->runicznyMieczZDolBlathannaToolStripMenuItem->Text = L"Runiczny miecz z Dol Blathanna";
 			// 
 			// œwiêtyMieczZakonuToolStripMenuItem
 			// 
+			this->œwiêtyMieczZakonuToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->œwiêtyMieczZakonuToolStripMenuItem->Name = L"œwiêtyMieczZakonuToolStripMenuItem";
-			this->œwiêtyMieczZakonuToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->œwiêtyMieczZakonuToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->œwiêtyMieczZakonuToolStripMenuItem->Text = L"Œwiêty miecz Zakonu";
 			// 
 			// temerskiMieczStalowyToolStripMenuItem
 			// 
+			this->temerskiMieczStalowyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->temerskiMieczStalowyToolStripMenuItem->Name = L"temerskiMieczStalowyToolStripMenuItem";
-			this->temerskiMieczStalowyToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->temerskiMieczStalowyToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->temerskiMieczStalowyToolStripMenuItem->Text = L"Temerski miecz stalowy";
 			// 
 			// wiedŸmiñskiMieczStalowyToolStripMenuItem
 			// 
+			this->wiedŸmiñskiMieczStalowyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->wiedŸmiñskiMieczStalowyToolStripMenuItem->Name = L"wiedŸmiñskiMieczStalowyToolStripMenuItem";
-			this->wiedŸmiñskiMieczStalowyToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->wiedŸmiñskiMieczStalowyToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->wiedŸmiñskiMieczStalowyToolStripMenuItem->Text = L"WiedŸmiñski miecz stalowy";
 			// 
 			// zardzewia³yMieczToolStripMenuItem
 			// 
+			this->zardzewia³yMieczToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 14.25F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->zardzewia³yMieczToolStripMenuItem->Name = L"zardzewia³yMieczToolStripMenuItem";
-			this->zardzewia³yMieczToolStripMenuItem->Size = System::Drawing::Size(696, 44);
+			this->zardzewia³yMieczToolStripMenuItem->Size = System::Drawing::Size(696, 32);
 			this->zardzewia³yMieczToolStripMenuItem->Text = L"Zardzewia³y miecz";
 			// 
 			// asdToolStripMenuItem
@@ -844,10 +855,9 @@ namespace WindowsFormApplication1 {
 			// toolStripContainer1.ContentPanel
 			// 
 			this->toolStripContainer1->ContentPanel->BackColor = System::Drawing::Color::Black;
-			this->toolStripContainer1->ContentPanel->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripContainer1.ContentPanel.BackgroundImage")));
 			this->toolStripContainer1->ContentPanel->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 			this->toolStripContainer1->ContentPanel->Controls->Add(this->toolStripContainer2);
-			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(540, 301);
+			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(540, 276);
 			this->toolStripContainer1->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->toolStripContainer1->Location = System::Drawing::Point(0, 0);
 			this->toolStripContainer1->Name = L"toolStripContainer1";
@@ -864,7 +874,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// toolStripContainer2.ContentPanel
 			// 
-			this->toolStripContainer2->ContentPanel->Size = System::Drawing::Size(0, 237);
+			this->toolStripContainer2->ContentPanel->Size = System::Drawing::Size(0, 212);
 			// 
 			// toolStripContainer2.LeftToolStripPanel
 			// 
@@ -911,26 +921,37 @@ namespace WindowsFormApplication1 {
 private: System::Void toolStripContainer1_TopToolStripPanel_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void ardaenyeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			 this->Hide();
-			 Form^ okno = gcnew Form();
+
+			 Projekt_OJP::Form2^ Dane = gcnew Projekt_OJP::Form2();
+			 Dane->Show();
+
+			 Projekt_OJP::Form2
+
 			 Button ^ zamknij = gcnew Button;
 
-			 okno->Show();
-			 okno->Width = 1000;
-			 okno->Height = 700;
 			 Label ^ Pole_tekst = gcnew Label;
 			 Label^ Pole_tekst1 = gcnew Label;
+			 zamknij->AutoSize;
 			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+			 this->Hide();
+
+
 			 Pole_tekst->Text = "Cechy:";
-			 Pole_tekst->Location = Point(100, 100);
 			 zamknij->Location = Point(150, 150);
 
 
-			 okno->Controls->Add(Pole_tekst);
-			 okno->Controls->Add(Pole_tekst1);
-			 okno->Controls->Add(zamknij);
+			 Dane->Controls->Add(Pole_tekst);
+			 Dane->Controls->Add(Pole_tekst1);
+			 Dane->Controls->Add(zamknij);
+
 			 
 
+}
+	private: System::Void zamknij_Click(System::Object^  sender, System::EventArgs^  e) {
+				 ((Form^)((Button^)sender)->Parent)->Close();
+
+				 this->Show();
 }
 private: System::Void mieczeStaloweToolStripMenuItem_Click_1(System::Object^  sender, System::EventArgs^  e) {
 			 
@@ -939,8 +960,22 @@ private: System::Void textBox1_TextChanged(System::Object^  sender, System::Even
 			 
 }
 private: System::Void ceremonialnyMieczDeithwenToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			Projekt_OJP::Form2^ form2 = gcnew Projekt_OJP::Form2();
-			 form2->Show();
+
+			 Projekt_OJP::Form2^ Dane = gcnew Projekt_OJP::Form2();
+			 Dane->Show();
+
+			 Label^ Pole_tekst = gcnew Label;
+			 Label^ Pole_tekst1 = gcnew Label;
+
+			 Pole_tekst->Text = "Cechy:";
+			 Pole_tekst->Location = Point(100, 100);
+
+			 Dane->Controls->Add(Pole_tekst);
+			 Dane->Controls->Add(Pole_tekst1);
+
+
+
+
 
 }
 };
