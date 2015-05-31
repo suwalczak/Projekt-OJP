@@ -88,28 +88,136 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ard%27aenye.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Ceremonialny miecz Deithwen.cpp" />
+    <ClCompile Include="D%27yaebl.cpp" />
+    <ClCompile Include="Elfi miecz z Niebieskich Gór.cpp" />
     <ClCompile Include="Form2.cpp" />
+    <ClCompile Include="G%27valchir mahakamski runiczny Sihill.cpp" />
+    <ClCompile Include="Gwalhir.cpp" />
+    <ClCompile Include="Harvall.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 1.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 10.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 2.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 3.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 5.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 6.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 7.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 8.cpp" />
+    <ClCompile Include="Miecz z meteorytowej stali 9.cpp" />
+    <ClCompile Include="Miecz z metorytowej stali 4.cpp" />
+    <ClCompile Include="Miecz Zakonu.cpp" />
+    <ClCompile Include="Nielegalny miecz.cpp" />
+    <ClCompile Include="Runiczny miecz z Dol Blathanna.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Temerski miecz stalowy.cpp" />
+    <ClCompile Include="Wiedźmiński miecz stalowy.cpp" />
     <ClCompile Include="WindowsFormApplication1.cpp" />
+    <ClCompile Include="Zardzewiały miecz.cpp" />
+    <ClCompile Include="Święty miecz Zakonu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ard%27aenye.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ceremonialny miecz Deithwen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="D%27yaebl.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Elfi miecz z Niebieskich Gór.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Form2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="G%27valchir mahakamski runiczny Sihill.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Gwalhir.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Harvall.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 8.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 9.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz z metorytowej stali 4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Miecz Zakonu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nielegalny miecz.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Runiczny miecz z Dol Blathanna.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Temerski miecz stalowy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Wiedźmiński miecz stalowy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zardzewiały miecz.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Święty miecz Zakonu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ard%27aenye.resx">
+      <DependentUpon>Ard%27aenye.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ceremonialny miecz Deithwen.resx">
+      <DependentUpon>Ceremonialny miecz Deithwen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D%27yaebl.resx">
+      <DependentUpon>D%27yaebl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elfi miecz z Niebieskich Gór.resx">
+      <DependentUpon>Elfi miecz z Niebieskich Gór.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resX">
       <DependentUpon>Form1.h</DependentUpon>
       <SubType>Designer</SubType>
@@ -117,6 +225,70 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="G%27valchir mahakamski runiczny Sihill.resx">
+      <DependentUpon>G%27valchir mahakamski runiczny Sihill.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gwalhir.resx">
+      <DependentUpon>Gwalhir.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Harvall.resx">
+      <DependentUpon>Harvall.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 1.resx">
+      <DependentUpon>Miecz z meteorytowej stali 1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 10.resx">
+      <DependentUpon>Miecz z meteorytowej stali 10.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 2.resx">
+      <DependentUpon>Miecz z meteorytowej stali 2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 3.resx">
+      <DependentUpon>Miecz z meteorytowej stali 3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 5.resx">
+      <DependentUpon>Miecz z meteorytowej stali 5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 6.resx">
+      <DependentUpon>Miecz z meteorytowej stali 6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 7.resx">
+      <DependentUpon>Miecz z meteorytowej stali 7.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 8.resx">
+      <DependentUpon>Miecz z meteorytowej stali 8.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z meteorytowej stali 9.resx">
+      <DependentUpon>Miecz z meteorytowej stali 9.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz z metorytowej stali 4.resx">
+      <DependentUpon>Miecz z metorytowej stali 4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Miecz Zakonu.resx">
+      <DependentUpon>Miecz Zakonu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nielegalny miecz.resx">
+      <DependentUpon>Nielegalny miecz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Runiczny miecz z Dol Blathanna.resx">
+      <DependentUpon>Runiczny miecz z Dol Blathanna.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temerski miecz stalowy.resx">
+      <DependentUpon>Temerski miecz stalowy.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wiedźmiński miecz stalowy.resx">
+      <DependentUpon>Wiedźmiński miecz stalowy.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zardzewiały miecz.resx">
+      <DependentUpon>Zardzewiały miecz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Święty miecz Zakonu.resx">
+      <DependentUpon>Święty miecz Zakonu.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Grafika\Miecze stalowe\ardaenye.png" />
+    <Image Include="Grafika\Miecze stalowe\ceremonialny_miecz_deithwen.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

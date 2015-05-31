@@ -33,6 +33,78 @@
     <ClCompile Include="Form2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ceremonialny miecz Deithwen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ard%27aenye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D%27yaebl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Elfi miecz z Niebieskich Gór.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G%27valchir mahakamski runiczny Sihill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gwalhir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Harvall.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z metorytowej stali 4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 7.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 8.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz z meteorytowej stali 10.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz Zakonu.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nielegalny miecz.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Runiczny miecz z Dol Blathanna.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Święty miecz Zakonu.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Temerski miecz stalowy.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wiedźmiński miecz stalowy.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zardzewiały miecz.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -47,6 +119,78 @@
     <ClInclude Include="Form2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Ceremonialny miecz Deithwen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ard%27aenye.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D%27yaebl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Elfi miecz z Niebieskich Gór.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G%27valchir mahakamski runiczny Sihill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gwalhir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Harvall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z metorytowej stali 4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz z meteorytowej stali 10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz Zakonu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nielegalny miecz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Runiczny miecz z Dol Blathanna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Święty miecz Zakonu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Temerski miecz stalowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wiedźmiński miecz stalowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zardzewiały miecz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -57,5 +201,25 @@
     <EmbeddedResource Include="Form1.resX">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ard%27aenye.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ceremonialny miecz Deithwen.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D%27yaebl.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Grafika\Miecze stalowe\ardaenye.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Grafika\Miecze stalowe\ceremonialny_miecz_deithwen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
