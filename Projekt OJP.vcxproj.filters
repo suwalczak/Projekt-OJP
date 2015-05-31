@@ -105,6 +105,21 @@
     <ClCompile Include="Zardzewiały miecz.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Aerondight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Księżycowe ostrze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Runiczny miecz 1.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Runiczny miecz 2h.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wiedźmiński srebrny miecz.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -189,6 +204,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Zardzewiały miecz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aerondight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Księżycowe ostrze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Runiczny miecz 1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Runiczny miecz 2h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wiedźmiński srebrny miecz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

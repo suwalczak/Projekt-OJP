@@ -25,6 +25,11 @@
 #include"Temerski miecz stalowy.h"
 #include"WiedŸmiñski miecz stalowy.h"
 #include"Zardzewia³y miecz.h"
+#include"Aerondight.h"
+#include"Ksiê¿ycowe ostrze.h"
+#include "Runiczny miecz 1.h"
+#include "Runiczny miecz 2h.h"
+#include "WiedŸmiñski srebrny miecz.h"
 
 
 
@@ -69,7 +74,7 @@ namespace WindowsFormApplication1 {
 
 
 
-	private: System::Windows::Forms::ToolStripMenuItem^  asdToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  dadToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  asdToolStripMenuItem5;
 	private: System::Windows::Forms::ToolStripMenuItem^  asdToolStripMenuItem1;
@@ -100,19 +105,19 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::ToolStripMenuItem^  temerskiMieczStalowyToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  wiedŸmiñskiMieczStalowyToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  zardzewia³yMieczToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  aerondightToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ksiê¿ycoweOstrzeToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  runicznyMieczToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZTrzemaRunamiZiemiToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZTrzemaRunamiS³oñcaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  wiedŸmiñskiSrebrnyMieczToolStripMenuItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::ToolStripMenuItem^  ciê¿kaMaczugaToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  kamiennyM³otToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  korbaczToolStripMenuItem;
@@ -140,6 +145,12 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::ToolStripMenuItem^  temerskiSztylet¯elaznyToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripContainer^  toolStripContainer1;
 	private: System::Windows::Forms::ToolStripContainer^  toolStripContainer2;
+	private: System::Windows::Forms::ToolStripMenuItem^  asdToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  aerondightToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  ksiê¿ycoweOstrzeToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  runicznyMieczToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  wiedŸmiñskiSrebrnyMieczToolStripMenuItem;
 
 
 
@@ -207,14 +218,6 @@ namespace WindowsFormApplication1 {
 			this->ksiê¿ycoweOstrzeToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->runicznyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZTrzemaRunamiZiemiToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->dadToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem5 = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -512,12 +515,10 @@ namespace WindowsFormApplication1 {
 			// 
 			// asdToolStripMenuItem
 			// 
-			this->asdToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(13) {
+			this->asdToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(5) {
 				this->aerondightToolStripMenuItem,
 					this->ksiê¿ycoweOstrzeToolStripMenuItem, this->runicznyMieczToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem,
-					this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem, this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem, this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem,
-					this->mieczZTrzemaRunamiZiemiToolStripMenuItem, this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem, this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem,
-					this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem, this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem, this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem
+					this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem
 			});
 			this->asdToolStripMenuItem->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
 				static_cast<System::Int32>(static_cast<System::Byte>(2)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
@@ -530,104 +531,45 @@ namespace WindowsFormApplication1 {
 			this->aerondightToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->aerondightToolStripMenuItem->Name = L"aerondightToolStripMenuItem";
-			this->aerondightToolStripMenuItem->Size = System::Drawing::Size(414, 28);
+			this->aerondightToolStripMenuItem->Size = System::Drawing::Size(358, 28);
 			this->aerondightToolStripMenuItem->Text = L"Aerondight";
+			this->aerondightToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::aerondightToolStripMenuItem_Click);
 			// 
 			// ksiê¿ycoweOstrzeToolStripMenuItem
 			// 
 			this->ksiê¿ycoweOstrzeToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->ksiê¿ycoweOstrzeToolStripMenuItem->Name = L"ksiê¿ycoweOstrzeToolStripMenuItem";
-			this->ksiê¿ycoweOstrzeToolStripMenuItem->Size = System::Drawing::Size(414, 28);
+			this->ksiê¿ycoweOstrzeToolStripMenuItem->Size = System::Drawing::Size(358, 28);
 			this->ksiê¿ycoweOstrzeToolStripMenuItem->Text = L"Ksiê¿ycowe ostrze";
+			this->ksiê¿ycoweOstrzeToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::ksiê¿ycoweOstrzeToolStripMenuItem_Click);
 			// 
 			// runicznyMieczToolStripMenuItem
 			// 
 			this->runicznyMieczToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->runicznyMieczToolStripMenuItem->Name = L"runicznyMieczToolStripMenuItem";
-			this->runicznyMieczToolStripMenuItem->Size = System::Drawing::Size(414, 28);
+			this->runicznyMieczToolStripMenuItem->Size = System::Drawing::Size(358, 28);
 			this->runicznyMieczToolStripMenuItem->Text = L"Miecz z run¹ ziemi i dwoma runami s³oñca";
+			this->runicznyMieczToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::runicznyMieczToolStripMenuItem_Click);
 			// 
 			// mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem
 			// 
 			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Name = L"mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem";
-			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Size = System::Drawing::Size(414, 28);
+			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Size = System::Drawing::Size(358, 28);
 			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Text = L"Miecz z run¹ ziemi i dwoma runami s³oñca";
-			// 
-			// mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem
-			// 
-			this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem->Name = L"mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem";
-			this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZRun¹S³oñcaIDwomaRunamiZiemiToolStripMenuItem->Text = L"Miecz z run¹ s³oñca i dwoma runami ziemi";
-			// 
-			// mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem
-			// 
-			this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem->Name = L"mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem";
-			this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZKsiê¿ycow¹Run¹OrazDwomaRunamiZiemiToolStripMenuItem->Text = L"Miecz z ksiê¿ycow¹ run¹ oraz dwoma runami ziemi";
-			// 
-			// mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem
-			// 
-			this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem->Name = L"mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem";
-			this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZRun¹ZiemiIDwomaKsiê¿ycowymiRunamiToolStripMenuItem->Text = L"Miecz z run¹ ziemi i dwoma ksiê¿ycowymi runami";
-			// 
-			// mieczZTrzemaRunamiZiemiToolStripMenuItem
-			// 
-			this->mieczZTrzemaRunamiZiemiToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZTrzemaRunamiZiemiToolStripMenuItem->Name = L"mieczZTrzemaRunamiZiemiToolStripMenuItem";
-			this->mieczZTrzemaRunamiZiemiToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZTrzemaRunamiZiemiToolStripMenuItem->Text = L"Miecz z trzema runami ziemi";
-			// 
-			// mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem
-			// 
-			this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem->Name = L"mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem";
-			this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZRun¹S³oñcaIDwomaRunamiKsiê¿ycaToolStripMenuItem->Text = L"Miecz z run¹ s³oñca i dwoma runami ksiê¿yca";
-			// 
-			// mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem
-			// 
-			this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem->Name = L"mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem";
-			this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZRun¹Ksiê¿ycaIDwomaRunamiS³oñcaToolStripMenuItem->Text = L"Miecz z run¹ ksiê¿yca i dwoma runami s³oñca";
-			// 
-			// mieczZTrzemaRunamiS³oñcaToolStripMenuItem
-			// 
-			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem->Name = L"mieczZTrzemaRunamiS³oñcaToolStripMenuItem";
-			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZTrzemaRunamiS³oñcaToolStripMenuItem->Text = L"Miecz z trzema runami s³oñca";
-			// 
-			// mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem
-			// 
-			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem->Name = L"mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem";
-			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem->Size = System::Drawing::Size(414, 28);
-			this->mieczZTrzemaRunamiKsiê¿ycaToolStripMenuItem->Text = L"Miecz z trzema runami ksiê¿yca";
+			this->mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem_Click);
 			// 
 			// wiedŸmiñskiSrebrnyMieczToolStripMenuItem
 			// 
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Name = L"wiedŸmiñskiSrebrnyMieczToolStripMenuItem";
-			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Size = System::Drawing::Size(414, 28);
+			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Size = System::Drawing::Size(358, 28);
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Text = L"WiedŸmiñski srebrny miecz";
+			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::wiedŸmiñskiSrebrnyMieczToolStripMenuItem_Click);
 			// 
 			// dadToolStripMenuItem
 			// 
@@ -1366,6 +1308,82 @@ private: System::Void zardzewia³yMieczToolStripMenuItem_Click(System::Object^  s
 			 zamknij->Location = Point(190, 300);
 
 			 Dane->Controls->Add(zamknij);
+}
+private: System::Void aerondightToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Aerondight();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void ksiê¿ycoweOstrzeToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Ksiê¿ycoweostrze();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void runicznyMieczToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Runicznymiecz1();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Runicznymiecz2h();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void wiedŸmiñskiSrebrnyMieczToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::WiedŸmiñskisrebrnymiecz();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+
 }
 };
 }
