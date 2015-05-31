@@ -102,6 +102,7 @@
     <ClCompile Include="Krasnoludzki topór z Góry Carbon.cpp" />
     <ClCompile Include="Księżycowe ostrze.cpp" />
     <ClCompile Include="Mahakamski młot bojowy.cpp" />
+    <ClCompile Include="Mahakamski sztylet.cpp" />
     <ClCompile Include="Mahakamski topór dwuręczny.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 1.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 10.cpp" />
@@ -125,6 +126,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Sztylet z Deithwen.cpp" />
+    <ClCompile Include="Sztylet zabójców.cpp" />
     <ClCompile Include="Temerski miecz stalowy.cpp" />
     <ClCompile Include="Wiedźmiński miecz stalowy.cpp" />
     <ClCompile Include="Wiedźmiński srebrny miecz.cpp" />
@@ -175,6 +178,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Mahakamski młot bojowy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mahakamski sztylet.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Mahakamski topór dwuręczny.h">
@@ -236,6 +242,12 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Sztylet z Deithwen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sztylet zabójców.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Temerski miecz stalowy.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -305,6 +317,9 @@
     <EmbeddedResource Include="Mahakamski młot bojowy.resx">
       <DependentUpon>Mahakamski młot bojowy.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mahakamski sztylet.resx">
+      <DependentUpon>Mahakamski sztylet.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mahakamski topór dwuręczny.resx">
       <DependentUpon>Mahakamski topór dwuręczny.h</DependentUpon>
     </EmbeddedResource>
@@ -361,6 +376,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Siekiera.resx">
       <DependentUpon>Siekiera.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sztylet z Deithwen.resx">
+      <DependentUpon>Sztylet z Deithwen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sztylet zabójców.resx">
+      <DependentUpon>Sztylet zabójców.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Temerski miecz stalowy.resx">
       <DependentUpon>Temerski miecz stalowy.h</DependentUpon>

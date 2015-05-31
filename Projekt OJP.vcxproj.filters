@@ -147,6 +147,15 @@
     <ClCompile Include="Święty topór Zakonu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mahakamski sztylet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sztylet z Deithwen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sztylet zabójców.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -273,6 +282,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Święty topór Zakonu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mahakamski sztylet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sztylet z Deithwen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sztylet zabójców.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -39,6 +39,9 @@
 #include "Mahakamski topór dwurêczny.h"
 #include "Siekiera.h"
 #include "Œwiêty topór Zakonu.h"
+#include "Mahakamski sztylet.h"
+#include "Sztylet z Deithwen.h"
+#include "Sztylet zabójców.h"
 
 
 namespace WindowsFormApplication1 {
@@ -146,11 +149,11 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyTopórZakonuToolStripMenuItem;
 
 
-	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiSztyletRunicznyToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZDeithwenToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZabójcówToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  temerskiSztyletStalowyToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  temerskiSztylet¯elaznyToolStripMenuItem;
+
+
 	private: System::Windows::Forms::ToolStripContainer^  toolStripContainer1;
 	private: System::Windows::Forms::ToolStripContainer^  toolStripContainer2;
 	private: System::Windows::Forms::ToolStripMenuItem^  asdToolStripMenuItem;
@@ -240,11 +243,8 @@ namespace WindowsFormApplication1 {
 			this->œwiêtyTopórZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem3 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mahakamskiSztyletRunicznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->sztyletZDeithwenToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->sztyletZabójcówToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->temerskiSztyletStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->temerskiSztylet¯elaznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->toolStripContainer1 = (gcnew System::Windows::Forms::ToolStripContainer());
 			this->toolStripContainer2 = (gcnew System::Windows::Forms::ToolStripContainer());
 			this->menuStrip1->SuspendLayout();
@@ -266,7 +266,7 @@ namespace WindowsFormApplication1 {
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(213, 212);
+			this->menuStrip1->Size = System::Drawing::Size(213, 237);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -674,10 +674,9 @@ namespace WindowsFormApplication1 {
 			// 
 			// asdToolStripMenuItem2
 			// 
-			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
+			this->asdToolStripMenuItem2->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 				this->asdToolStripMenuItem3,
-					this->mahakamskiSztyletRunicznyToolStripMenuItem, this->sztyletZDeithwenToolStripMenuItem, this->sztyletZabójcówToolStripMenuItem,
-					this->temerskiSztyletStalowyToolStripMenuItem, this->temerskiSztylet¯elaznyToolStripMenuItem
+					this->sztyletZDeithwenToolStripMenuItem, this->sztyletZabójcówToolStripMenuItem
 			});
 			this->asdToolStripMenuItem2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
 				static_cast<System::Int32>(static_cast<System::Byte>(2)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
@@ -690,48 +689,27 @@ namespace WindowsFormApplication1 {
 			this->asdToolStripMenuItem3->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->asdToolStripMenuItem3->Name = L"asdToolStripMenuItem3";
-			this->asdToolStripMenuItem3->Size = System::Drawing::Size(270, 28);
+			this->asdToolStripMenuItem3->Size = System::Drawing::Size(212, 28);
 			this->asdToolStripMenuItem3->Text = L"Mahakamski sztylet";
-			// 
-			// mahakamskiSztyletRunicznyToolStripMenuItem
-			// 
-			this->mahakamskiSztyletRunicznyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->mahakamskiSztyletRunicznyToolStripMenuItem->Name = L"mahakamskiSztyletRunicznyToolStripMenuItem";
-			this->mahakamskiSztyletRunicznyToolStripMenuItem->Size = System::Drawing::Size(270, 28);
-			this->mahakamskiSztyletRunicznyToolStripMenuItem->Text = L"Mahakamski sztylet runiczny";
+			this->asdToolStripMenuItem3->Click += gcnew System::EventHandler(this, &Form1::asdToolStripMenuItem3_Click);
 			// 
 			// sztyletZDeithwenToolStripMenuItem
 			// 
 			this->sztyletZDeithwenToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->sztyletZDeithwenToolStripMenuItem->Name = L"sztyletZDeithwenToolStripMenuItem";
-			this->sztyletZDeithwenToolStripMenuItem->Size = System::Drawing::Size(270, 28);
+			this->sztyletZDeithwenToolStripMenuItem->Size = System::Drawing::Size(212, 28);
 			this->sztyletZDeithwenToolStripMenuItem->Text = L"Sztylet z Deithwen";
+			this->sztyletZDeithwenToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::sztyletZDeithwenToolStripMenuItem_Click);
 			// 
 			// sztyletZabójcówToolStripMenuItem
 			// 
 			this->sztyletZabójcówToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->sztyletZabójcówToolStripMenuItem->Name = L"sztyletZabójcówToolStripMenuItem";
-			this->sztyletZabójcówToolStripMenuItem->Size = System::Drawing::Size(270, 28);
+			this->sztyletZabójcówToolStripMenuItem->Size = System::Drawing::Size(212, 28);
 			this->sztyletZabójcówToolStripMenuItem->Text = L"Sztylet zabójców";
-			// 
-			// temerskiSztyletStalowyToolStripMenuItem
-			// 
-			this->temerskiSztyletStalowyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->temerskiSztyletStalowyToolStripMenuItem->Name = L"temerskiSztyletStalowyToolStripMenuItem";
-			this->temerskiSztyletStalowyToolStripMenuItem->Size = System::Drawing::Size(270, 28);
-			this->temerskiSztyletStalowyToolStripMenuItem->Text = L"Temerski sztylet stalowy";
-			// 
-			// temerskiSztylet¯elaznyToolStripMenuItem
-			// 
-			this->temerskiSztylet¯elaznyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->temerskiSztylet¯elaznyToolStripMenuItem->Name = L"temerskiSztylet¯elaznyToolStripMenuItem";
-			this->temerskiSztylet¯elaznyToolStripMenuItem->Size = System::Drawing::Size(270, 28);
-			this->temerskiSztylet¯elaznyToolStripMenuItem->Text = L"Temerski sztylet ¿elazny";
+			this->sztyletZabójcówToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::sztyletZabójcówToolStripMenuItem_Click);
 			// 
 			// toolStripContainer1
 			// 
@@ -741,7 +719,7 @@ namespace WindowsFormApplication1 {
 			this->toolStripContainer1->ContentPanel->BackColor = System::Drawing::Color::Black;
 			this->toolStripContainer1->ContentPanel->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 			this->toolStripContainer1->ContentPanel->Controls->Add(this->toolStripContainer2);
-			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(540, 276);
+			this->toolStripContainer1->ContentPanel->Size = System::Drawing::Size(540, 301);
 			this->toolStripContainer1->ContentPanel->Load += gcnew System::EventHandler(this, &Form1::toolStripContainer1_ContentPanel_Load);
 			this->toolStripContainer1->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->toolStripContainer1->Location = System::Drawing::Point(0, 0);
@@ -759,7 +737,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// toolStripContainer2.ContentPanel
 			// 
-			this->toolStripContainer2->ContentPanel->Size = System::Drawing::Size(0, 212);
+			this->toolStripContainer2->ContentPanel->Size = System::Drawing::Size(0, 237);
 			// 
 			// toolStripContainer2.LeftToolStripPanel
 			// 
@@ -769,6 +747,10 @@ namespace WindowsFormApplication1 {
 			this->toolStripContainer2->Size = System::Drawing::Size(212, 237);
 			this->toolStripContainer2->TabIndex = 2;
 			this->toolStripContainer2->Text = L"toolStripContainer2";
+			// 
+			// toolStripContainer2.TopToolStripPanel
+			// 
+			this->toolStripContainer2->TopToolStripPanel->Click += gcnew System::EventHandler(this, &Form1::toolStripContainer2_TopToolStripPanel_Click);
 			// 
 			// Form1
 			// 
@@ -1405,6 +1387,53 @@ private: System::Void siekieraToolStripMenuItem_Click(System::Object^  sender, S
 private: System::Void œwiêtyTopórZakonuToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 
 			 auto Dane = gcnew Projekt_OJP::ŒwiêtytopórZakonu();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void toolStripContainer2_TopToolStripPanel_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void asdToolStripMenuItem3_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Mahakamskisztylet();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void sztyletZDeithwenToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::SztyletzDeithwen();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void sztyletZabójcówToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Sztyletzabójców();
 			 Dane->Show();
 
 			 Button ^ zamknij = gcnew Button;
