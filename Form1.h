@@ -35,6 +35,10 @@
 #include "M³ot bojowy zmutowanego rycerza.h"
 #include "Pochodnia.h"
 #include "Œwiêty m³ot bojowy Zakonu.h"
+#include "Krasnoludzki topór z Góry Carbon.h"
+#include "Mahakamski topór dwurêczny.h"
+#include "Siekiera.h"
+#include "Œwiêty topór Zakonu.h"
 
 
 namespace WindowsFormApplication1 {
@@ -133,15 +137,15 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::ToolStripMenuItem^  pochodniaToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyM³otBojowyZakonuToolStripMenuItem;
 
-	private: System::Windows::Forms::ToolStripMenuItem^  krasnoludzkiTopórZMahakamuToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiTopórDwurêcznyToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ma³yTopórToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  runicznyTopórZGóryCarbonToolStripMenuItem;
+
+
 	private: System::Windows::Forms::ToolStripMenuItem^  siekieraToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  stalowyTopórDwurêcznyToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyTopórZakonuToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  temerskiTopórStalowyToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  temerskiTopór¯elaznyToolStripMenuItem;
+
+
 	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiSztyletRunicznyToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZDeithwenToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  sztyletZabójcówToolStripMenuItem;
@@ -231,15 +235,9 @@ namespace WindowsFormApplication1 {
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem4 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->krasnoludzkiTopórZMahakamuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mahakamskiTopórDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ma³yTopórToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->runicznyTopórZGóryCarbonToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->siekieraToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->stalowyTopórDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->œwiêtyTopórZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->temerskiTopórStalowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->temerskiTopór¯elaznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem3 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mahakamskiSztyletRunicznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -628,11 +626,9 @@ namespace WindowsFormApplication1 {
 			// 
 			// asdToolStripMenuItem1
 			// 
-			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(10) {
+			this->asdToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
 				this->asdToolStripMenuItem4,
-					this->krasnoludzkiTopórZMahakamuToolStripMenuItem, this->mahakamskiTopórDwurêcznyToolStripMenuItem, this->ma³yTopórToolStripMenuItem,
-					this->runicznyTopórZGóryCarbonToolStripMenuItem, this->siekieraToolStripMenuItem, this->stalowyTopórDwurêcznyToolStripMenuItem,
-					this->œwiêtyTopórZakonuToolStripMenuItem, this->temerskiTopórStalowyToolStripMenuItem, this->temerskiTopór¯elaznyToolStripMenuItem
+					this->mahakamskiTopórDwurêcznyToolStripMenuItem, this->siekieraToolStripMenuItem, this->œwiêtyTopórZakonuToolStripMenuItem
 			});
 			this->asdToolStripMenuItem1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
 				static_cast<System::Int32>(static_cast<System::Byte>(2)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
@@ -647,14 +643,7 @@ namespace WindowsFormApplication1 {
 			this->asdToolStripMenuItem4->Name = L"asdToolStripMenuItem4";
 			this->asdToolStripMenuItem4->Size = System::Drawing::Size(305, 28);
 			this->asdToolStripMenuItem4->Text = L"Krasnoludzki topór z Góry Carbon";
-			// 
-			// krasnoludzkiTopórZMahakamuToolStripMenuItem
-			// 
-			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Name = L"krasnoludzkiTopórZMahakamuToolStripMenuItem";
-			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->krasnoludzkiTopórZMahakamuToolStripMenuItem->Text = L"Krasnoludzki topór z Mahakamu";
+			this->asdToolStripMenuItem4->Click += gcnew System::EventHandler(this, &Form1::asdToolStripMenuItem4_Click);
 			// 
 			// mahakamskiTopórDwurêcznyToolStripMenuItem
 			// 
@@ -663,22 +652,7 @@ namespace WindowsFormApplication1 {
 			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Name = L"mahakamskiTopórDwurêcznyToolStripMenuItem";
 			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(305, 28);
 			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Text = L"Mahakamski topór dwurêczny";
-			// 
-			// ma³yTopórToolStripMenuItem
-			// 
-			this->ma³yTopórToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->ma³yTopórToolStripMenuItem->Name = L"ma³yTopórToolStripMenuItem";
-			this->ma³yTopórToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->ma³yTopórToolStripMenuItem->Text = L"Ma³y topór";
-			// 
-			// runicznyTopórZGóryCarbonToolStripMenuItem
-			// 
-			this->runicznyTopórZGóryCarbonToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->runicznyTopórZGóryCarbonToolStripMenuItem->Name = L"runicznyTopórZGóryCarbonToolStripMenuItem";
-			this->runicznyTopórZGóryCarbonToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->runicznyTopórZGóryCarbonToolStripMenuItem->Text = L"Runiczny topór z Góry Carbon";
+			this->mahakamskiTopórDwurêcznyToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mahakamskiTopórDwurêcznyToolStripMenuItem_Click);
 			// 
 			// siekieraToolStripMenuItem
 			// 
@@ -687,14 +661,7 @@ namespace WindowsFormApplication1 {
 			this->siekieraToolStripMenuItem->Name = L"siekieraToolStripMenuItem";
 			this->siekieraToolStripMenuItem->Size = System::Drawing::Size(305, 28);
 			this->siekieraToolStripMenuItem->Text = L"Siekiera";
-			// 
-			// stalowyTopórDwurêcznyToolStripMenuItem
-			// 
-			this->stalowyTopórDwurêcznyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->stalowyTopórDwurêcznyToolStripMenuItem->Name = L"stalowyTopórDwurêcznyToolStripMenuItem";
-			this->stalowyTopórDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->stalowyTopórDwurêcznyToolStripMenuItem->Text = L"Stalowy topór dwurêczny";
+			this->siekieraToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::siekieraToolStripMenuItem_Click);
 			// 
 			// œwiêtyTopórZakonuToolStripMenuItem
 			// 
@@ -703,22 +670,7 @@ namespace WindowsFormApplication1 {
 			this->œwiêtyTopórZakonuToolStripMenuItem->Name = L"œwiêtyTopórZakonuToolStripMenuItem";
 			this->œwiêtyTopórZakonuToolStripMenuItem->Size = System::Drawing::Size(305, 28);
 			this->œwiêtyTopórZakonuToolStripMenuItem->Text = L"Œwiêty topór Zakonu";
-			// 
-			// temerskiTopórStalowyToolStripMenuItem
-			// 
-			this->temerskiTopórStalowyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->temerskiTopórStalowyToolStripMenuItem->Name = L"temerskiTopórStalowyToolStripMenuItem";
-			this->temerskiTopórStalowyToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->temerskiTopórStalowyToolStripMenuItem->Text = L"Temerski topór stalowy";
-			// 
-			// temerskiTopór¯elaznyToolStripMenuItem
-			// 
-			this->temerskiTopór¯elaznyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->temerskiTopór¯elaznyToolStripMenuItem->Name = L"temerskiTopór¯elaznyToolStripMenuItem";
-			this->temerskiTopór¯elaznyToolStripMenuItem->Size = System::Drawing::Size(305, 28);
-			this->temerskiTopór¯elaznyToolStripMenuItem->Text = L"Temerski topór ¿elazny";
+			this->œwiêtyTopórZakonuToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::œwiêtyTopórZakonuToolStripMenuItem_Click);
 			// 
 			// asdToolStripMenuItem2
 			// 
@@ -1404,6 +1356,66 @@ private: System::Void œwiêtyM³otBojowyZakonuToolStripMenuItem_Click(System::Obje
 
 			 Dane->Controls->Add(zamknij);
 
+}
+private: System::Void asdToolStripMenuItem4_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::KrasnoludzkitopórzGóryCarbon();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void mahakamskiTopórDwurêcznyToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Mahakamskitopórdwurêczny();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void siekieraToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Siekiera();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void œwiêtyTopórZakonuToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::ŒwiêtytopórZakonu();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
 }
 };
 }

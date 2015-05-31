@@ -99,8 +99,10 @@
     <ClCompile Include="G%27valchir mahakamski runiczny Sihill.cpp" />
     <ClCompile Include="Gwalhir.cpp" />
     <ClCompile Include="Harvall.cpp" />
+    <ClCompile Include="Krasnoludzki topór z Góry Carbon.cpp" />
     <ClCompile Include="Księżycowe ostrze.cpp" />
     <ClCompile Include="Mahakamski młot bojowy.cpp" />
+    <ClCompile Include="Mahakamski topór dwuręczny.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 1.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 10.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 2.cpp" />
@@ -118,6 +120,7 @@
     <ClCompile Include="Runiczny miecz 1.cpp" />
     <ClCompile Include="Runiczny miecz 2h.cpp" />
     <ClCompile Include="Runiczny miecz z Dol Blathanna.cpp" />
+    <ClCompile Include="Siekiera.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -129,6 +132,7 @@
     <ClCompile Include="Zardzewiały miecz.cpp" />
     <ClCompile Include="Święty miecz Zakonu.cpp" />
     <ClCompile Include="Święty młot bojowy Zakonu.cpp" />
+    <ClCompile Include="Święty topór Zakonu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aerondight.h">
@@ -164,10 +168,16 @@
     <ClInclude Include="Harvall.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Krasnoludzki topór z Góry Carbon.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Księżycowe ostrze.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Mahakamski młot bojowy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mahakamski topór dwuręczny.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Miecz z meteorytowej stali 1.h">
@@ -222,6 +232,9 @@
     <ClInclude Include="Runiczny miecz z Dol Blathanna.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Siekiera.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Temerski miecz stalowy.h">
       <FileType>CppForm</FileType>
@@ -239,6 +252,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Święty młot bojowy Zakonu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Święty topór Zakonu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -280,11 +296,17 @@
     <EmbeddedResource Include="Harvall.resx">
       <DependentUpon>Harvall.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Krasnoludzki topór z Góry Carbon.resx">
+      <DependentUpon>Krasnoludzki topór z Góry Carbon.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Księżycowe ostrze.resx">
       <DependentUpon>Księżycowe ostrze.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mahakamski młot bojowy.resx">
       <DependentUpon>Mahakamski młot bojowy.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mahakamski topór dwuręczny.resx">
+      <DependentUpon>Mahakamski topór dwuręczny.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Miecz z meteorytowej stali 1.resx">
       <DependentUpon>Miecz z meteorytowej stali 1.h</DependentUpon>
@@ -337,6 +359,9 @@
     <EmbeddedResource Include="Runiczny miecz z Dol Blathanna.resx">
       <DependentUpon>Runiczny miecz z Dol Blathanna.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Siekiera.resx">
+      <DependentUpon>Siekiera.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Temerski miecz stalowy.resx">
       <DependentUpon>Temerski miecz stalowy.h</DependentUpon>
     </EmbeddedResource>
@@ -354,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Święty młot bojowy Zakonu.resx">
       <DependentUpon>Święty młot bojowy Zakonu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Święty topór Zakonu.resx">
+      <DependentUpon>Święty topór Zakonu.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -10,12 +10,12 @@ namespace Projekt_OJP {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for Œwiêtym³otbojowyZakonu
+	/// Summary for Siekiera
 	/// </summary>
-	public ref class Œwiêtym³otbojowyZakonu : public System::Windows::Forms::Form
+	public ref class Siekiera : public System::Windows::Forms::Form
 	{
 	public:
-		Œwiêtym³otbojowyZakonu(void)
+		Siekiera(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +27,7 @@ namespace Projekt_OJP {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~Œwiêtym³otbojowyZakonu()
+		~Siekiera()
 		{
 			if (components)
 			{
@@ -71,11 +71,11 @@ namespace Projekt_OJP {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(389, 66);
+			this->pictureBox1->Location = System::Drawing::Point(394, 66);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(48, 164);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
-			this->pictureBox1->TabIndex = 258;
+			this->pictureBox1->TabIndex = 282;
 			this->pictureBox1->TabStop = false;
 			// 
 			// label7
@@ -83,11 +83,11 @@ namespace Projekt_OJP {
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Sitka Display", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->label7->Location = System::Drawing::Point(122, 9);
+			this->label7->Location = System::Drawing::Point(182, 9);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(261, 30);
-			this->label7->TabIndex = 257;
-			this->label7->Text = L"Œwiêty m³ot bojowy Zakonu";
+			this->label7->Size = System::Drawing::Size(86, 30);
+			this->label7->TabIndex = 281;
+			this->label7->Text = L"Siekiera";
 			// 
 			// label6
 			// 
@@ -95,20 +95,19 @@ namespace Projekt_OJP {
 				static_cast<System::Byte>(238)));
 			this->label6->Location = System::Drawing::Point(68, 148);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(358, 81);
-			this->label6->TabIndex = 256;
-			this->label6->Text = L"Obra¿enia: 9-18\r\nSzansa na efekt krytyczny: Powalenie +55%";
+			this->label6->Size = System::Drawing::Size(358, 57);
+			this->label6->TabIndex = 280;
+			this->label6->Text = L"Obra¿enia: 5-15\r\nSzansa na efekt krytyczny: Krwawienie +40%";
 			// 
 			// label5
 			// 
 			this->label5->Font = (gcnew System::Drawing::Font(L"Sitka Display", 9.749999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->label5->Location = System::Drawing::Point(70, 229);
+			this->label5->Location = System::Drawing::Point(70, 233);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(311, 62);
-			this->label5->TabIndex = 255;
-			this->label5->Text = L"Do kupienia równie¿ u zakonnego zbrojmistrza w Starej Wyzimie (o ile wspierasz Za"
-				L"kon).";
+			this->label5->Size = System::Drawing::Size(318, 47);
+			this->label5->TabIndex = 279;
+			this->label5->Text = L"Mo¿na j¹ znaleŸæ w wielu ró¿nych miejscach.";
 			// 
 			// label4
 			// 
@@ -118,7 +117,7 @@ namespace Projekt_OJP {
 			this->label4->Location = System::Drawing::Point(20, 148);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(48, 19);
-			this->label4->TabIndex = 254;
+			this->label4->TabIndex = 278;
 			this->label4->Text = L"Efekty:";
 			// 
 			// label3
@@ -126,10 +125,10 @@ namespace Projekt_OJP {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Sitka Display", 9.749999F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->label3->Location = System::Drawing::Point(20, 229);
+			this->label3->Location = System::Drawing::Point(20, 233);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(44, 19);
-			this->label3->TabIndex = 253;
+			this->label3->TabIndex = 277;
 			this->label3->Text = L"Gdzie:";
 			// 
 			// label2
@@ -140,7 +139,7 @@ namespace Projekt_OJP {
 			this->label2->Location = System::Drawing::Point(70, 52);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(313, 64);
-			this->label2->TabIndex = 252;
+			this->label2->TabIndex = 276;
 			this->label2->Text = L"Broñ nie jest stosowana w po³¹czeniu z wiedŸmiñskimi stylami walki.";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -152,10 +151,10 @@ namespace Projekt_OJP {
 			this->label1->Location = System::Drawing::Point(26, 66);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(38, 19);
-			this->label1->TabIndex = 251;
+			this->label1->TabIndex = 275;
 			this->label1->Text = L"Opis:";
 			// 
-			// Œwiêtym³otbojowyZakonu
+			// Siekiera
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -168,18 +167,18 @@ namespace Projekt_OJP {
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
-			this->Name = L"Œwiêtym³otbojowyZakonu";
+			this->Name = L"Siekiera";
 			this->Text = L"Weapons of Witcher";
-			this->Load += gcnew System::EventHandler(this, &Œwiêtym³otbojowyZakonu::Œwiêtym³otbojowyZakonu_Load);
+			this->Load += gcnew System::EventHandler(this, &Siekiera::Siekiera_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	private: System::Void Œwiêtym³otbojowyZakonu_Load(System::Object^  sender, System::EventArgs^  e) {
+	private: System::Void Siekiera_Load(System::Object^  sender, System::EventArgs^  e) {
 
-				 pictureBox1->Image = Bitmap::FromFile("Grafika\\Broñ obuchowa\\swiety_mlot_bojowy_zakonu.png");
+				 pictureBox1->Image = Bitmap::FromFile("Grafika\\Topory\\siekiera.png");
 	}
 };
 }

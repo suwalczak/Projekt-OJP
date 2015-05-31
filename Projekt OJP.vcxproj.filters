@@ -135,6 +135,18 @@
     <ClCompile Include="Święty młot bojowy Zakonu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Krasnoludzki topór z Góry Carbon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mahakamski topór dwuręczny.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Siekiera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Święty topór Zakonu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -249,6 +261,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Święty młot bojowy Zakonu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Krasnoludzki topór z Góry Carbon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mahakamski topór dwuręczny.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Siekiera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Święty topór Zakonu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
