@@ -30,7 +30,11 @@
 #include "Runiczny miecz 1.h"
 #include "Runiczny miecz 2h.h"
 #include "WiedŸmiñski srebrny miecz.h"
-
+#include "Bu³awa ³añcuchowa.h"
+#include "Mahakamski m³ot bojowy.h"
+#include "M³ot bojowy zmutowanego rycerza.h"
+#include "Pochodnia.h"
+#include "Œwiêty m³ot bojowy Zakonu.h"
 
 
 namespace WindowsFormApplication1 {
@@ -118,17 +122,17 @@ namespace WindowsFormApplication1 {
 
 
 
-	private: System::Windows::Forms::ToolStripMenuItem^  ciê¿kaMaczugaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  kamiennyM³otToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  korbaczToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  lekkaMaczugaToolStripMenuItem;
+
+
+
+
 	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiM³otBojowyToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  m³otBojowyZakonuToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  m³otBojowyZmutowanegoRycerzaToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  morgenszternDwurêcznyToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  pochodniaToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  œwiêtyM³otBojowyZakonuToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  temerskiCepBojowyToolStripMenuItem;
+
 	private: System::Windows::Forms::ToolStripMenuItem^  krasnoludzkiTopórZMahakamuToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  mahakamskiTopórDwurêcznyToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  ma³yTopórToolStripMenuItem;
@@ -221,17 +225,10 @@ namespace WindowsFormApplication1 {
 			this->wiedŸmiñskiSrebrnyMieczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->dadToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem5 = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ciê¿kaMaczugaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->kamiennyM³otToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->korbaczToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->lekkaMaczugaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->mahakamskiM³otBojowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->m³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->morgenszternDwurêcznyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->pochodniaToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->temerskiCepBojowyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->asdToolStripMenuItem4 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->krasnoludzkiTopórZMahakamuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -573,12 +570,10 @@ namespace WindowsFormApplication1 {
 			// 
 			// dadToolStripMenuItem
 			// 
-			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(12) {
+			this->dadToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(5) {
 				this->asdToolStripMenuItem5,
-					this->ciê¿kaMaczugaToolStripMenuItem, this->kamiennyM³otToolStripMenuItem, this->korbaczToolStripMenuItem, this->lekkaMaczugaToolStripMenuItem,
-					this->mahakamskiM³otBojowyToolStripMenuItem, this->m³otBojowyZakonuToolStripMenuItem, this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem,
-					this->morgenszternDwurêcznyToolStripMenuItem, this->pochodniaToolStripMenuItem, this->œwiêtyM³otBojowyZakonuToolStripMenuItem,
-					this->temerskiCepBojowyToolStripMenuItem
+					this->mahakamskiM³otBojowyToolStripMenuItem, this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem, this->pochodniaToolStripMenuItem,
+					this->œwiêtyM³otBojowyZakonuToolStripMenuItem
 			});
 			this->dadToolStripMenuItem->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)),
 				static_cast<System::Int32>(static_cast<System::Byte>(2)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
@@ -593,38 +588,7 @@ namespace WindowsFormApplication1 {
 			this->asdToolStripMenuItem5->Name = L"asdToolStripMenuItem5";
 			this->asdToolStripMenuItem5->Size = System::Drawing::Size(310, 28);
 			this->asdToolStripMenuItem5->Text = L"Bu³awa ³añcuchowa";
-			// 
-			// ciê¿kaMaczugaToolStripMenuItem
-			// 
-			this->ciê¿kaMaczugaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->ciê¿kaMaczugaToolStripMenuItem->Name = L"ciê¿kaMaczugaToolStripMenuItem";
-			this->ciê¿kaMaczugaToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->ciê¿kaMaczugaToolStripMenuItem->Text = L"Ciê¿ka maczuga";
-			// 
-			// kamiennyM³otToolStripMenuItem
-			// 
-			this->kamiennyM³otToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->kamiennyM³otToolStripMenuItem->Name = L"kamiennyM³otToolStripMenuItem";
-			this->kamiennyM³otToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->kamiennyM³otToolStripMenuItem->Text = L"Kamienny m³ot";
-			// 
-			// korbaczToolStripMenuItem
-			// 
-			this->korbaczToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(238)));
-			this->korbaczToolStripMenuItem->Name = L"korbaczToolStripMenuItem";
-			this->korbaczToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->korbaczToolStripMenuItem->Text = L"Korbacz";
-			// 
-			// lekkaMaczugaToolStripMenuItem
-			// 
-			this->lekkaMaczugaToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->lekkaMaczugaToolStripMenuItem->Name = L"lekkaMaczugaToolStripMenuItem";
-			this->lekkaMaczugaToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->lekkaMaczugaToolStripMenuItem->Text = L"Lekka maczuga";
+			this->asdToolStripMenuItem5->Click += gcnew System::EventHandler(this, &Form1::asdToolStripMenuItem5_Click);
 			// 
 			// mahakamskiM³otBojowyToolStripMenuItem
 			// 
@@ -633,14 +597,7 @@ namespace WindowsFormApplication1 {
 			this->mahakamskiM³otBojowyToolStripMenuItem->Name = L"mahakamskiM³otBojowyToolStripMenuItem";
 			this->mahakamskiM³otBojowyToolStripMenuItem->Size = System::Drawing::Size(310, 28);
 			this->mahakamskiM³otBojowyToolStripMenuItem->Text = L"Mahakamski m³ot bojowy";
-			// 
-			// m³otBojowyZakonuToolStripMenuItem
-			// 
-			this->m³otBojowyZakonuToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->m³otBojowyZakonuToolStripMenuItem->Name = L"m³otBojowyZakonuToolStripMenuItem";
-			this->m³otBojowyZakonuToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->m³otBojowyZakonuToolStripMenuItem->Text = L"M³ot bojowy Zakonu";
+			this->mahakamskiM³otBojowyToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mahakamskiM³otBojowyToolStripMenuItem_Click);
 			// 
 			// m³otBojowyZmutowanegoRycerzaToolStripMenuItem
 			// 
@@ -649,14 +606,7 @@ namespace WindowsFormApplication1 {
 			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Name = L"m³otBojowyZmutowanegoRycerzaToolStripMenuItem";
 			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Size = System::Drawing::Size(310, 28);
 			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Text = L"M³ot bojowy zmutowanego rycerza";
-			// 
-			// morgenszternDwurêcznyToolStripMenuItem
-			// 
-			this->morgenszternDwurêcznyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->morgenszternDwurêcznyToolStripMenuItem->Name = L"morgenszternDwurêcznyToolStripMenuItem";
-			this->morgenszternDwurêcznyToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->morgenszternDwurêcznyToolStripMenuItem->Text = L"Morgensztern dwurêczny";
+			this->m³otBojowyZmutowanegoRycerzaToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::m³otBojowyZmutowanegoRycerzaToolStripMenuItem_Click);
 			// 
 			// pochodniaToolStripMenuItem
 			// 
@@ -665,6 +615,7 @@ namespace WindowsFormApplication1 {
 			this->pochodniaToolStripMenuItem->Name = L"pochodniaToolStripMenuItem";
 			this->pochodniaToolStripMenuItem->Size = System::Drawing::Size(310, 28);
 			this->pochodniaToolStripMenuItem->Text = L"Pochodnia";
+			this->pochodniaToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::pochodniaToolStripMenuItem_Click);
 			// 
 			// œwiêtyM³otBojowyZakonuToolStripMenuItem
 			// 
@@ -673,14 +624,7 @@ namespace WindowsFormApplication1 {
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Name = L"œwiêtyM³otBojowyZakonuToolStripMenuItem";
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Size = System::Drawing::Size(310, 28);
 			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Text = L"Œwiêty m³ot bojowy Zakonu";
-			// 
-			// temerskiCepBojowyToolStripMenuItem
-			// 
-			this->temerskiCepBojowyToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Sitka Display", 12, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->temerskiCepBojowyToolStripMenuItem->Name = L"temerskiCepBojowyToolStripMenuItem";
-			this->temerskiCepBojowyToolStripMenuItem->Size = System::Drawing::Size(310, 28);
-			this->temerskiCepBojowyToolStripMenuItem->Text = L"Temerski cep bojowy";
+			this->œwiêtyM³otBojowyZakonuToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::œwiêtyM³otBojowyZakonuToolStripMenuItem_Click);
 			// 
 			// asdToolStripMenuItem1
 			// 
@@ -1372,6 +1316,82 @@ private: System::Void mieczZRun¹ZiemiIDwomaRunamiS³oñcaToolStripMenuItem_Click(S
 private: System::Void wiedŸmiñskiSrebrnyMieczToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 
 			 auto Dane = gcnew Projekt_OJP::WiedŸmiñskisrebrnymiecz();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+
+}
+private: System::Void asdToolStripMenuItem5_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Bu³awa³añcuchowa();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void mahakamskiM³otBojowyToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Mahakamskim³otbojowy();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void m³otBojowyZmutowanegoRycerzaToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::M³otbojowyzmutowanegorycerza();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void pochodniaToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Pochodnia();
+			 Dane->Show();
+
+			 Button ^ zamknij = gcnew Button;
+
+			 zamknij->AutoSize;
+			 zamknij->Text = "Zamknij";
+			 zamknij->Click += gcnew System::EventHandler(this, &Form1::zamknij_Click);
+
+			 zamknij->Location = Point(190, 300);
+
+			 Dane->Controls->Add(zamknij);
+}
+private: System::Void œwiêtyM³otBojowyZakonuToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 auto Dane = gcnew Projekt_OJP::Œwiêtym³otbojowyZakonu();
 			 Dane->Show();
 
 			 Button ^ zamknij = gcnew Button;

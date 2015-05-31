@@ -120,6 +120,21 @@
     <ClCompile Include="Wiedźmiński srebrny miecz.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Buława łańcuchowa.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mahakamski młot bojowy.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Młot bojowy zmutowanego rycerza.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pochodnia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Święty młot bojowy Zakonu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -219,6 +234,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Wiedźmiński srebrny miecz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buława łańcuchowa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mahakamski młot bojowy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Młot bojowy zmutowanego rycerza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pochodnia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Święty młot bojowy Zakonu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -91,6 +91,7 @@
     <ClCompile Include="Aerondight.cpp" />
     <ClCompile Include="Ard%27aenye.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Buława łańcuchowa.cpp" />
     <ClCompile Include="Ceremonialny miecz Deithwen.cpp" />
     <ClCompile Include="D%27yaebl.cpp" />
     <ClCompile Include="Elfi miecz z Niebieskich Gór.cpp" />
@@ -99,6 +100,7 @@
     <ClCompile Include="Gwalhir.cpp" />
     <ClCompile Include="Harvall.cpp" />
     <ClCompile Include="Księżycowe ostrze.cpp" />
+    <ClCompile Include="Mahakamski młot bojowy.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 1.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 10.cpp" />
     <ClCompile Include="Miecz z meteorytowej stali 2.cpp" />
@@ -110,7 +112,9 @@
     <ClCompile Include="Miecz z meteorytowej stali 9.cpp" />
     <ClCompile Include="Miecz z metorytowej stali 4.cpp" />
     <ClCompile Include="Miecz Zakonu.cpp" />
+    <ClCompile Include="Młot bojowy zmutowanego rycerza.cpp" />
     <ClCompile Include="Nielegalny miecz.cpp" />
+    <ClCompile Include="Pochodnia.cpp" />
     <ClCompile Include="Runiczny miecz 1.cpp" />
     <ClCompile Include="Runiczny miecz 2h.cpp" />
     <ClCompile Include="Runiczny miecz z Dol Blathanna.cpp" />
@@ -124,12 +128,16 @@
     <ClCompile Include="WindowsFormApplication1.cpp" />
     <ClCompile Include="Zardzewiały miecz.cpp" />
     <ClCompile Include="Święty miecz Zakonu.cpp" />
+    <ClCompile Include="Święty młot bojowy Zakonu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aerondight.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Ard%27aenye.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Buława łańcuchowa.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Ceremonialny miecz Deithwen.h">
@@ -157,6 +165,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Księżycowe ostrze.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mahakamski młot bojowy.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Miecz z meteorytowej stali 1.h">
@@ -192,7 +203,13 @@
     <ClInclude Include="Miecz Zakonu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Młot bojowy zmutowanego rycerza.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Nielegalny miecz.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pochodnia.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="resource.h" />
@@ -221,6 +238,9 @@
     <ClInclude Include="Święty miecz Zakonu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Święty młot bojowy Zakonu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc" />
@@ -231,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ard%27aenye.resx">
       <DependentUpon>Ard%27aenye.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buława łańcuchowa.resx">
+      <DependentUpon>Buława łańcuchowa.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ceremonialny miecz Deithwen.resx">
       <DependentUpon>Ceremonialny miecz Deithwen.h</DependentUpon>
@@ -259,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Księżycowe ostrze.resx">
       <DependentUpon>Księżycowe ostrze.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mahakamski młot bojowy.resx">
+      <DependentUpon>Mahakamski młot bojowy.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Miecz z meteorytowej stali 1.resx">
       <DependentUpon>Miecz z meteorytowej stali 1.h</DependentUpon>
@@ -293,8 +319,14 @@
     <EmbeddedResource Include="Miecz Zakonu.resx">
       <DependentUpon>Miecz Zakonu.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Młot bojowy zmutowanego rycerza.resx">
+      <DependentUpon>Młot bojowy zmutowanego rycerza.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nielegalny miecz.resx">
       <DependentUpon>Nielegalny miecz.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pochodnia.resx">
+      <DependentUpon>Pochodnia.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Runiczny miecz 1.resx">
       <DependentUpon>Runiczny miecz 1.h</DependentUpon>
@@ -319,6 +351,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Święty miecz Zakonu.resx">
       <DependentUpon>Święty miecz Zakonu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Święty młot bojowy Zakonu.resx">
+      <DependentUpon>Święty młot bojowy Zakonu.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
